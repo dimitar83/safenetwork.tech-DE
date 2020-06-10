@@ -3,15 +3,15 @@ export default {
     'name': 'SAFE Network',
     'links': [
       {
-        'name': 'Home',
+        'name': 'Startseite',
         'url': '/'
       },
       {
-        'name': 'How It Works',
+        'name': 'Wie es funktioniert',
         'url': '/how-it-works/'
       },
       {
-        'name': 'Press Kit',
+        'name': 'Pressemappe',
         'url': '/press-kit/'
       },
       {
@@ -19,7 +19,7 @@ export default {
         'url': '/safecoin/'
       },
       {
-        'name': 'Get Involved',
+        'name': 'Machen Sie mit',
         'url': '/get-involved/'
       },
       {
@@ -35,20 +35,20 @@ export default {
         'url': '/roadmap/'
       },
       {
-        'name': 'Events',
+        'name': 'Veranstaltungen',
         'url': 'https://safenetforum.org/t/safe-network-upcoming-events/29029'
       }
     ]
   },
   'community': {
-    'name': 'Community',
+    'name': 'Gemeinschaft',
     'links': [
       {
         'name': 'SAFE Network Forum',
-        'url': 'https://safenetforum.org/'
+        'url': 'http://safenetworkforum.de/'
       },
       {
-        'name': 'Developer Forum',
+        'name': 'Entwicklers Forum',
         'url': 'https://forum.safedev.org/'
       }
     ]
@@ -57,28 +57,28 @@ export default {
     'name': 'Company',
     'links': [
       {
-        'name': 'About MaidSafe',
+        'name': 'Über MaidSafe',
         'url': '/about-maidsafe'
       },
       {
-        'name': 'Website',
+        'name': 'Webseite',
         'url': 'https://maidsafe.net/'
       },
       {
-        'name': 'Contact',
+        'name': 'Kontakt',
         'url': 'https://maidsafe.net/contact'
       },
       {
-        'name': 'Careers',
+        'name': 'Karriere',
         'url': 'https://maidsafe.net/careers'
       }
     ]
   },
   'developers': {
-    'name': 'Developers',
+    'name': 'Entwickler',
     'links': [
       {
-        'name': 'Developer Hub',
+        'name': 'Entwickler-Hub',
         'url': 'https://hub.safedev.org/'
       },
       {
