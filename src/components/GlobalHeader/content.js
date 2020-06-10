@@ -2,7 +2,7 @@ export default {
   siteName: 'SAFE Network',
   navItems: [
     {
-      name: "How It Works",
+      name: "Wie es funktioniert",
       link: "/how-it-works/"
     },
     {
@@ -14,7 +14,7 @@ export default {
       link: "/roadmap/"
     },
     {
-      name: "Fundamentals",
+      name: "Grundlagen",
       link: "/fundamentals/"
     },
     {
@@ -22,13 +22,13 @@ export default {
       link: "/faq/"
     },
     {
-      name: "Press Kit",
+      name: "Pressemappe",
       link: "/press-kit/"
     }
   ],
   navButtons: [
     {
-      name: "Get Involved",
+      name: "Machen Sie mit",
       link: "/get-involved/"
     }
   ]
