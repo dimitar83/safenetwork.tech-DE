@@ -1,12 +1,12 @@
 export default {
   banner: {
-    pageTitle: 'The ~~Im~~Possible Network',
-    pageDesc: `14 years of research and development is coming to fruition as we put together the final building blocks of what some said was impossible: Secure Access For Everyone.`,
+    pageTitle: 'Das unmögliche Netzwerk',
+    pageDesc: `14 Jahre Forschung und Entwicklung werden zur Verwirklichung als wir die letzten Bausteine für das zusammenstellen, was einige für unmöglich hielten: Sicherer Zugang für alle.`,
     latestUpdate: {
-      overline: 'Latest Update',
+      overline: 'Letzte Aktualisierung',
       date: 'March 26, 2020',
-      title: 'Baby Fleming iteration 3',
-      para: `The Baby Fleming release is about iterating from a single vault network into a multiple vaults (single-section) network. Iteration 3 has been updated to use the latest version of the Quinn library (via quic-p2p).`,
+      title: 'Baby Fleming Wiederholung 3',
+      para: `In der Baby Fleming-Version geht es darum, von einem einzelnen Tresornetzwerk in ein Netzwerk mit mehreren Tresoren (einzelne Abschnitte) zu iterieren. Iteration 3 wurde aktualisiert, um die neueste Version der Quinn-Bibliothek zu verwenden (über quic-p2p).`,
        CTA: {
          name: 'SAFE Network Forum',
          url: 'https://safenetforum.org/t/safe-network-dev-update-march-26-2020/31360'
