@@ -14,15 +14,15 @@ export default {
     }
   },
   subscribe: {
-    title: 'Subscribe for updates:'
+    title: 'Abonnieren Sie sich für Updates:'
   },
   releases: {
     release1: {
-      overline: 'Live Now',
-      title: 'Baby Fleming Network',
+      overline: 'JETZT LIVE',
+      title: 'Baby Fleming Netzwerk',
       para:[
-        `From a user perspective, the exact same type of operations and use cases as Vaults Phase 1 are being supported by Baby Fleming, i.e. Test Safecoin, wallets, files, NRS names, SAFE sites, etc.`,
-        'We’ve set up a [public shared section](https://safenetforum.org/t/baby-fleming-public-shared-section/31377) for you to play with. You can also set up your own local network. See the [CLI User Guide](https://github.com/maidsafe/safe-api/blob/master/safe-cli/README.md#download) for full instructions.'
+        `Aus Anwendersicht werden von Baby Fleming genau die gleichen Operationen und Anwendungsfälle wie in Tresorphase 1 unterstützt, d. H. Test Safecoin, Brieftaschen, Dateien, NRS-Namen, SAFE-Sites usw.`,
+        'Wir haben einen [öffentlichen gemeinsamen Bereich](https://safenetforum.org/t/baby-fleming-public-shared-section/31377) eingerichtet , mit dem Sie spielen können. Sie können auch Ihr eigenes lokales Netzwerk einrichten. Ausführliche Anweisungen finden Sie im [CLI-Benutzerhandbuch](https://github.com/maidsafe/safe-api/blob/master/safe-cli/README.md#download).'
       ],
       // accordion: {
       //   header: [
@@ -35,122 +35,122 @@ export default {
       // }
     },
     release2: {
-      overline: 'Upcoming Milestone',
-      title: 'SAFE Fleming Network',
-      para: ['The next major milestone for the SAFE Network. Whilst the Baby Fleming Network will continue to function, this will be a standalone Network that will enable individuals to run Vaults - decentralised storage from home computers. The release of Fleming will be notable for many reasons, not least the fact that with data storage, the Network will now also contain Test Safecoin.'],
+      overline: 'KOMMENDER MEILENSTEIN',
+      title: 'SAFE Fleming Netzwerk',
+      para: ['Der nächste wichtige Meilenstein für das SAFE Network.Während das gemeinsame Tresor Netzwerks weiterhin funktioniert, handelt es sich um ein eigenständiges Netzwerk, mit dem Einzelpersonen Tresors ausführen können - dezentralisierten Speicher von Heimcomputern. Die Veröffentlichung von Fleming wird aus vielen Gründen bemerkenswert sein, nicht zuletzt aufgrund der Tatsache, dass das Netzwerk mit der Datenspeicherung jetzt auch Test Safecoin enthält.'],
       accordion: {
         header: [
-          'Fleming Feature',
-          'Description',
+          'Fleming Funktion',
+          'Beschreibung',
           'Status'
         ],
         items: [
           {
-            feature: 'Self-Authentication',
-            desc: 'The ability to log into a decentralised network without the permission or existence of a third party',
-            status: 'Complete',
+            feature: 'Selbstauthentifizierung',
+            desc: 'Die Möglichkeit, sich ohne Erlaubnis oder Existenz eines Dritten in ein dezentralisiertes Netzwerk einzuloggen',
+            status: 'Komplett',
             para: [
-              'MaidSafe invented the technology that lets someone log into a decentralised network securely without requiring the involvement of a third party. The Shared Vault Network is the only place in the world today that you can see this in action.'
+              'MaidSafe hat die Technologie erfunden, mit der sich jemand sicher in ein dezentralisiertes Netzwerk einloggen kann, ohne die Einbeziehung eines Dritten zu erfordern. Das gemeinsame Tresor Netzwerk ist heute der einzige Ort auf der Welt, an dem Sie dies im Einsatz sehen können.'
             ],
             // CTA: {
             //   name: 'Read More',
             //   url: 'https://safenetwork.tech/roadmap/#self-authentication'
             // },
           }, {
-            feature: 'Self-Encryption',
-            desc: 'Data is encrypted on your computer before being stored on the Network: no keys or passwords ever leave your machine',
-            status: 'Complete',
+            feature: 'Selbstverschlüsselung',
+            desc: 'Daten werden auf Ihrem Computer verschlüsselt, bevor sie im Netzwerk speichern: keine Schlüssel oder Kennwörter verlassen jemals Ihren Computer',
+            status: 'Komplett',
             para: [
-              'Invented by MaidSafe, this is the process by which any file to be stored in the Network is first broken into chunks, hashed, and then encrypted. These chunks are then themselves encrypted using the hash of another chunk from the same file.'
+              'Von MaidSafe erfunden, ist dies der Prozess, bei dem jede im Netzwerk zu speichernde Datei zuerst in Blöcke aufgeteilt, zerlegt und dann verschlüsselt wird. Diese Blöcke werden dann selbst mit dem Hash eines anderen Blöcke aus derselben Datei verschlüsselt.'
             ],
             video: {
               url: 'https://s3.eu-west-2.amazonaws.com/ms-marketing/website-videos/Self+Encryption+on+the+SAFE+Network.mp4',
-              caption: 'Self-Encryption explained'
+              caption: 'Selbstverschlüsselung erklärt'
             }
           }, {
-            feature: 'Disjoint Sections',
-            desc: 'Otherwise known as Sharding, this allows the Network to scale by splitting responsibilities for specific Network functions.',
-            status: 'Complete',
+            feature: 'Disjunkte Abschnitte',
+            desc: 'Sonst bekannt als Begehung, kann das Netzwerk auf diese Weise angepasst werden, indem die Verantwortlichkeiten für bestimmte Netzwerkfunktionen aufgeteilt werden.',
+            status: 'Komplett',
             para: [
-              'Ensures that the Network can scale by managing the responsibilities and locations of each node without requiring any human intervention. This also acts as a security measure to ensure that an attacker cannot choose their location or responsibilities.'
+              'Stellt sicher, dass das Netzwerk skaliert werden kann, indem die Verantwortlichkeiten und Standorte jedes Knotens verwaltet werden, ohne dass ein menschliches Eingreifen erforderlich ist. Dies tritt auch als Sicherheitsmaßnahme auf, um sicherzustellen, dass ein Angreifer seinen Standort oder seine Verantwortlichkeiten nicht auswählen kann.'
             ],
             CTA: {
-              name: 'Read More',
+              name: 'Lesen Sie mehr',
               url: 'https://safenetforum.org/t/step-by-step-the-road-to-fleming-6-disjoint-sections/28530'
             },
           }, {
-            feature: 'Message Relay',
-            desc: 'Ensures a message can be sent between nodes in different Disjoint Sections',
-            status: 'Complete',
+            feature: 'Nachrichtenübertragung',
+            desc: 'Stellt sicher, dass eine Nachricht zwischen Knoten in verschiedenen disjunkten Abschnitten gesendet werden kann',
+            status: 'Komplett',
             para: [
-              'Ensures that a message can be sent between nodes in different Disjoint Sections. In this early iteration, each message contains signatures of the members of the Disjoint Sections but does not yet verify the signatures themselves.'
+              'Stellt sicher, dass eine Nachricht zwischen Knoten in verschiedenen disjunkten Abschnitten gesendet werden kann. In diesem frühen Durchlauf enthält jede Nachricht Signaturen der Mitglieder der disjunkten Abschnitte, aber überprüft die Signaturen jedoch noch nicht.'
             ],
           },
           {
             feature: 'PARSEC',
-            desc: 'Asynchronous consensus algorithm',
-            status: 'Complete',
+            desc: 'Asynchroner Konsensalgorithmus',
+            status: 'Komplett',
             para: [
-              'Ensures that a global decentralised, permissionless Network can reach agreement about events that are permitted and the order in which they are to be recorded. A DAG-based algorithm that achieves the highest standard of security possibile, invented by MaidSafe in such a way that it ensures it is mathematically certain that every part of the Network will reach eventual agreement. In Fleming, we’ll be releasing a highly asynchronous version of PARSEC, with full asynchronicity to come later.'
+              'Stellt sicher, dass ein global dezentralisiertes, genehmigungsloses Netzwerk eine Einigung über zulässige Ereignisse und die Reihenfolge ihrer Aufzeichnung erzielen kann. Ein DAG-basierter Algorithmus, der den höchstmöglichen Sicherheitsstandard erreicht und von MaidSafe so erfunden wurde, dass mathematisch sichergestellt ist, dass jeder Teil des Netzwerkes eine endgültige Einigung erzielt. In Fleming werden wir eine hoch asynchrone Version von PARSEC veröffentlichen, die später vollständig asynchron sein wird.'
             ],
             CTA: {
-              name: 'Read More',
+              name: 'Lesen Sie mehr',
               url: 'https://hub.safedev.org/parsec/'
             },
           }, {
-            feature: 'Node Ageing',
-            desc: 'A decentralised system for ranking the behaviour, performance and abilities of nodes on the Network that requires no human intervention.',
-            status: 'Complete',
+            feature: 'Knotenalterung',
+            desc: 'Ein dezentralisiertes Einstufungssystem des Verhaltens, der Leistung und der Fähigkeiten von Knoten im Netzwerk, das kein menschliches Eingreifen erfordert.',
+            status: 'Komplett',
             para: [
-              'Each node on the SAFE Network is given an age by the Network itself. The node age increments every time that a node moves between Disjoint Sections, with only the most senior (Elders) entitled to vote during the PARSEC consensus algorithm.',
-              'Dig into the detail in the RFC, and [join the discussion](https://forum.safedev.org/t/rfc-45-node-ageing/157) on the forum.'
+              'Jeder Knoten in dem SAFE Network erhält von dem Netzwerk selbst ein Alter. Das Knotensalter erhöht sich jedes Mal, wenn ein Knoten zwischen disjunkten Abschnitten sich bewegt, wobei nur die ältesten (Ältesten) während des PARSEC Konsens Algorithmus wahlberechtigt sind.',
+              'Erforschen Sie die Einzelheiten im RFC und nehmen [Sie an der Diskussion](https://forum.safedev.org/t/rfc-45-node-ageing/157) im Forum teil.'
             ],
             CTA: {
-              name: 'Read the RFC',
+              name: 'Lesen Sie den RFC',
               url: 'https://github.com/maidsafe/rfcs/blob/master/text/0045-node-ageing/0045-node-ageing.md'
             },
           }, {
-            feature: 'Secure Message Delivery',
-            desc: 'Trusted communication between nodes - messages with authenticated source',
-            status: 'Complete',
+            feature: 'Sichere Nachrichtenübermittlung',
+            desc: 'Vertrauenswürdige Kommunikation zwischen Knoten - Nachrichten mit beglaubigter Quelle',
+            status: 'Komplett',
             para: [
-              'Ensures messages are sent and signed in such a way that lets nodes rely on the contents of each message despite having no previous relationship with the sender. This solves a problem faced by many existing blockchain-based projects and is essential when you have a Network that will autonomously move nodes around as required.'
+              'Stellt sicher, dass Nachrichten so gesendet und signiert werden, dass Knoten sich auf den Inhalt jeder Nachricht verlassen können, obwohl keine vorherige Beziehung zum Absender besteht. Dies klärt ein Problem auf, mit dem viele bestehende blockchainbasierte Projekte konfrontiert sind und es ist wichtig, wenn Sie über ein Netzwerk verfügen, dass Knoten sich nach Bedarf autonom bewegt.'
             ],
             CTA: {
-              name: 'Read the RFC',
+              name: 'Lesen Sie den RFC',
               url: 'https://github.com/maidsafe/rfcs/blob/master/text/0056-secure-message-delivery/0056-secure-message-delivery.md'
             },
           }, {
-            feature: 'Reliable Message Delivery',
-            desc: 'Communication guaranteeing the successful delivery of messages.',
-            status: 'Complete',
+            feature: 'Zuverlässige Nachrichtenübermittlung',
+            desc: 'Kommunikation, die die erfolgreiche Zustellung von Nachrichten garantiert.',
+            status: 'Komplett',
             para: [
-              'Ensures that all sent messages will be successfully delivered to their destinations, even when some nodes responsible for the delivery are failing.'
+              'Stellt sicher, dass alle gesendeten Nachrichten erfolgreich an Ihre Ziele übermittelt werden, auch wenn einige für die Zustellung verantwortliche Knoten ausfallen.'
             ],
             CTA: {
-              name: 'Read the RFC',
+              name: 'Lesen Sie den RFC',
               url: 'https://github.com/maidsafe/rfcs/blob/master/text/0058-reliable-message-delivery/0058-reliable-message-delivery.md'
             },
           }, {
             feature: 'QUIC-P2P',
-            desc: 'The low-level language which users connecting to SAFE will use for all network communications',
-            status: 'Complete',
+            desc: 'Die einfache Spacher, die Benutzer, die eine Verbindung zu SAFE herstellen, für die gesamte Netzwerkkommunikation verwenden',
+            status: 'Komplett',
             para: [
-              'Software that lets computers communicate in an encrypted manner on the SAFE Network. The software provides the infrastructure for messages to travel whilst the Routing layer of the Network sets the rules about which directions those messages can travel in.'
+              'Eine Software, mit der Computern im SAFE Netzwerk verschlüsselt kommunizieren können. Die Software stellt die Infrastruktur für das Senden von Nachrichten bereit, während die Routing Schicht des Netzwerks die Regeln festlegt, in welche Richtungen diese Nachrichten gesendet werden können.'
             ],
           }, {
-            feature: 'Malice Detection',
-            desc: 'Preventing malicious nodes subverting the consensus algorithm, PARSEC',
-            status: 'Complete',
+            feature: 'Böswillige Erkennung',
+            desc: 'Verhindern, dass böswillige Knoten den Konsens Algorithmus PARSEC untergraben',
+            status: 'Komplett',
             para: [
-              'The way that nodes identify malicious nodes that are damaging the Network within a Disjoint Section and the mechanism by which they agree to eject that node, or mitigate the risk.'
+              'Die Art und Weise, wie Knoten böswillige Knoten identifizieren, die das Netzwerk innerhalb eines disjunkten Abschnitts beschädigen, und der Mechanismus, mit dem sie sich bereit erklären, diesen Knoten auszuwerfen oder das Risiko zu mildern.'
             ],
             CTA: {
-              name: 'Read the RFC',
+              name: 'Lesen Sie den RFC',
               url: 'https://github.com/maidsafe/rfcs/blob/master/text/0050-malice_in_parsec/0050-malice_in_parsec.md'
             }
           }, {
-            feature: 'Test Safecoin & Wallet',
+            feature: 'Testen Sie Safecoin & Brieftasche',
             desc: 'Allow the Network to charge, and a user to send and receive payments to a wallet, in units called Test Safecoins',
             status: 'Complete',
             para: [
