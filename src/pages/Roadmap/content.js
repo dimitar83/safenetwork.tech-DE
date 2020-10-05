@@ -151,42 +151,42 @@ export default {
             }
           }, {
             feature: 'Testen Sie Safecoin & Brieftasche',
-            desc: 'Allow the Network to charge, and a user to send and receive payments to a wallet, in units called Test Safecoins',
-            status: 'Complete',
+            desc: 'Ermöglichen Sie der Netzwerkaufladung und dem Benutzer das Senden und Empfangen von Zahlungen an eine Brieftasche, in Einheiten namens Test Safecoin',
+            status: 'Komplett',
             para: [
-              'Safecoin is the incentive mechanism that encourages individuals to provide the computing resources that the Network requires: storage, broadband, and CPU resources.',
+              'Safecoin ist der Anreizmechanismus, der Einzelpersonen dazu ermutigt, die für das Netzwerk erforderlichen Computerressourcen bereitzustellen: Speicher-, Breitband- und CPU-Ressourcen.',
             ]
           }, {
-            feature: 'Farming',
-            desc: 'The process of providing resource and receiving Safecoin in return',
-            status: 'Development',
+            feature: 'Landwirtschaft',
+            desc: 'Der Prozess der Bereitstellung von Ressourcen und des Empfangs von Safecoin als Gegenleistung',
+            status: 'Entwicklung',
             para: [
-              'Individuals who choose to supply the resources that the Network requires have the opportunity to be rewarded with Safecoin. This work ensures that the Network rewards those who provide it with valuable resources.',
+              'Personen, die sich für die Bereitstellung der für das Netzwerk erforderlichen Ressourcen entscheiden, haben die Möglichkeit, mit Safecoin belohnt zu werden. Diese Beschäftigung stellt sicher, dass das Netzwerk diejenigen belohnt, die es mit wertvollen Ressourcen versorgen.',
             ],
           }, {
-            feature: 'Vaults From Home',
-            desc: 'The ability for anyone to download software and run Vaults from home, creating decentralised storage for the Network',
-            status: 'Development',
+            feature: 'Gewölbe von zu Hause aus',
+            desc: 'Die Möglichkeit für jeden, Software herunterzuladen und Tresore von zu Hause auszuführen, wodurch ein dezentralisierter Netzwerkspeicher erstellt wird',
+            status: 'Entwicklung',
             para: [
-              'Decentralised data storage is a key element of the SAFE Network. This release will enable nodes to participate regardless of the resources they offer.'
+              'Die dezentralisierte Datenspeicherung ist ein Schlüsselelement des SAFE Networks. Mit dieser Version können Knoten unabhängig von den von ihnen angebotenen Ressourcen teilnehmen.'
             ],
           }, {
-            feature: 'Published and Unpublished Data Types',
-            desc: 'Allow the network to store Published and Unpublished data via AppendOnlyData or MutableData types',
-            status: 'Complete',
+            feature: 'Veröffentlichte und unveröffentlichte Datentypen',
+            desc: 'Ermöglichen Sie dem Netzwerk, veröffentlichte und unveröffentlichte Daten über die Typen AppendOnlyData oder MutableData (unveränderliche Daten) zu speichern',
+            status: 'Komplett',
             para: [
-              'Published data refers to content that is published (made available) for everyone such as websites, blogs, or research papers. For such public content, it becomes important to retain a history of changes. History must not be allowed to be tampered with and the published data must remain forever. Unpublished data is data that is not desired to be made public such as personal data or organisations’ data stored on the network'
+              'Veröffentlichte Daten beziehen sich auf Inhalte, die für alle veröffentlicht (verfügbar gemacht) werden, z.B. Websites, Blogs oder Forschungsarbeiten. Für solche öffentlichen Inhalte wird es wichtig, eine Änderungshistorie beizubehalten. Die Geschichte darf nicht manipuliert werden und die veröffentlichen Daten müssen für immer übrigbleiben. Unveröffentlichte Daten sind Daten, die nicht veröffentlicht werden sollen, wie z.B. personenbezogene Daten oder im Netzwerk von Organisationen gespeicherte Daten.'
             ],
             //CTA: {
               //name: 'Read the RFC',
               //url: 'https://github.com/maidsafe/rfcs/blob/master/text/0054-published-and-unpublished-mutable-data/0054-published-and-unpublished-mutable-data.md'
             //},
           }, {
-            feature: 'Unpublished ImmutableData Data Type',
-            desc: 'Enhance ImmutableData to make it an unpublished or published, with the difference that unpublished can be deleted',
-            status: 'Complete',
+            feature: 'Unveröffentlichte unveränderliche Daten, Datentyp',
+            desc: 'Erweitern Sie unveränderliche Daten, um sie unveröffentlicht oder veröffentlicht zu machen, mit dem Unterschied, dass unveröffentlichte Daten gelöscht werden können',
+            status: 'Komplett',
             para: [
-              'There are many times when a user will require to create Immutable Data to store private content. As long as this content is not published (made available for others) this will be deleteable by the data owner only.'
+              'Schon öfter gibt es Fälle, in denen ein Benutzer unveränderliche Daten erstellt benötigt, um private Inhalte zu speichern. Solange dieser Inhalt nicht veröffentlicht (für andere verfügbar gemacht) wird, kann er nur vom Dateneigentümer gelöscht werden.'
             ],
             //CTA: {
               //name: 'Read the RFC',
@@ -197,41 +197,41 @@ export default {
       }
     },
     release3: {
-      overline: 'Next Up',
+      overline: 'ALS NÄCHSTES',
       title: 'SAFE Maxwell Network',
-      para: ['The release of SAFE Maxwell builds on top of Fleming and enables the network to upgrade, improves security and sets the ground work for switching Test Safecoin to real Safecoin.'],
+      para: ['Die SAFE Maxwell Veröffentlichung baut auf Fleming auf und ermöglicht das Netzwerk ein Upgrade, verbessert die Sicherheit und schafft die Grundlage für die Umstellung von Test-SAFE-Münzen auf echte SAFECoin.'],
       accordion: {
         header: [
-          'Maxwell Feature',
-          'Description',
+          'Maxwell Eigenschaft',
+          'Beschreibung',
           'Status'
         ],
         items: [
           {
-            feature: 'Spam Handling',
-            desc: 'Ability to handle spam attacks',
-            status: 'Concept',
+            feature: 'Spam Behandlung',
+            desc: 'Fähigkeit, mit Spam Angriffen umzugehen',
+            status: 'Konzept',
             para: [
-              'Spam includes nodes attempting to carry out activities that they shouldn’t or valid activities at a scale that is intended to choke the Network. The Network should be able to withstand a reasonable volume of such attacks.'
+              'Spam enthält Knoten, die versuchen Aktivitäten ausführen, die sie nicht ausführen sollten, oder gültige Aktivitäten in einer Skala, die das Netzwerk ersticken soll. Das Netzwerk sollte in der Lage sein, einem angemessenen Volumen solcher Angriffe standzuhalten.'
             ],
           }, {
-            feature: 'Identity Management',
-            desc: 'Ability for users to create and manage multiple identities for use on the network',
-            status: 'Concept',
+            feature: 'Identitätsmanagement',
+            desc: 'Möglichkeit für Benutzer, mehrere Identitäten zur Verwendung im Netzwerk zu erstellen und zu verwalten',
+            status: 'Konzept',
             para: [
-              'Users will be able to create multiple identities in the Network. Each identity can be used as required by the User and each should be independent unless the User explicitly wants to connect them. This helps protect identity and privacy.'
+              'Benutzer können mehrere Identitäten im Netzwerk erstellen. Jede Identität kann nach Bedarf des Benutzers verwendet werden und sollte unabhängig sein, es sei denn , der Benutzer sie ausdrücklich verbinden möchte . Dies trägt zum Schutz der Identität und der Privatsphäre bei.'
             ],
           },
           {
-            feature: 'Upgrades',
-            desc: 'The ability for the Network to upgrade itself, with no harm caused',
-            status: 'Concept',
+            feature: 'Verbesserungen',
+            desc: 'Die Fähigkeit des Netzwerks, sich selbst zu aktualisieren, ohne Schaden zu verursachen',
+            status: 'Konzept',
             para: [
-              'The Network will have the ability to upgrade itself in order to allow features and improvements to disseminate throughout the Network. The upgrades must be done in a way such that they don’t cause harm to the Network.',
-              'This is an important stage in the evolution of the Network as it means that new software can then continue to be rolled out onto the existing Network without disrupting the existing functionality.'
+              'Das Netzwerk kann sich selbst aktualisieren, damit Besonderheiten und Verbesserungen im gesamten Netzwerk verbreitet werden können. Die Verbesserungen müssen so durchgeführt werden, dass sie dem Netzwerk keinen Schaden auslösen.',
+              'Dies ist eine wichtige Phase in der Entwicklung des Netzwerks und bedeutet, dass neue Software weiterhin im vorhandenen Netzwerk bereitgestellt werden kann, ohne die vorhandene Funktionalität zu unterbrechen.'
             ],
             CTA: {
-              name: 'Follow the Discussion',
+              name: 'Folgen Sie der Diskussion',
               url: 'https://safenetforum.org/t/step-by-step-the-road-to-fleming-5-network-upgrades/28319'
             }
           }
