@@ -239,61 +239,61 @@ export default {
       }
     },
     release4: {
-      overline: 'Coming Soon',
-      title: 'Upcoming Network Features',
-      para: ['The following list represents network work that remains to be completed. The order should not be seen as fixed in any way as in certain cases, work will be carried out in parallel by different teams.'],
+      overline: 'DEMNÄCHST',
+      title: 'Kommende Netzwerkeigenschaften',
+      para: ['Die folgende Liste stellt die Netzwerkarbeiten dar, die noch abgeschlossen werden müssen. Der Auftrag sollte in keiner Weise als festgelegt angesehen werden, da in bestimmten Fällen die Arbeiten parallel von verschieden Teams ausgeführt werden.'],
       accordion: {
         header: [
-          'Feature',
-          'Description',
+          'Eigenschaft',
+          'Beschreibung',
           'Status'
         ],
         items: [
           {
-            feature: 'Secure Enclaves',
-            desc: 'A trusted executable environment within existing computers',
-            status: 'Concept',
+            feature: 'Sichere Enklaven',
+            desc: 'Ein vertrauenswürdige ausführbare Umgebung auf vorhandenen Computern',
+            status: 'Konzept',
             para: [
-              'Creates an area within the hardware of a computer that is a secure, trusted environment that stands separate from the rest of the computer. It functions like a mini-computer inside existing computers that cannot be opened.'
+              'Erstellt einen Bereich innerhalb der Hardware eines Computers, der eine sichere, vertrauenswürdige Umgebung darstellt, die vom Rest des Computers getrennt ist. Es funktioniert wie ein Mini-Computer innerhalb der vorhandenen Computern, die nicht geöffnet werden können.'
             ],
           }, {
-            feature: 'Network Growth',
-            desc: 'Allow the network to grow and scale in a sustainable way',
-            status: 'Concept',
+            feature: 'Netzwerkwachstum',
+            desc: 'Ermöglichen Sie dem Netzwerk, nachhaltig zu wachsen und zu skalieren',
+            status: 'Konzept',
             para: [
-              'The Network allows controlled growth to ensure that the majority of decision-makers are healthy nodes that follow the rules of the Network. This growth should be sustainable in order to avoid unnecessary mergers between Sections.'
+              'Das Netzwerk ermöglicht ein geregeltes Wachstum, um sicherzustellen, dass die Mehrheite der Entscheidungsträger gesunde Knoten sind, die den Regeln des Netzwerks folgen. Dieses Wachstum sollte nachhaltig sein, um unnötige Vereinigungen zwischen den Bereichen zu vermeiden.'
             ],
           }, {
-            feature: 'Network Restarts',
-            desc: 'Ability for the network to restart after a catastrophe',
-            status: 'Concept',
+            feature: 'Neustart des Netzwerks',
+            desc: 'Möglichkeit für das Netzwerk, nach einer Katastrophe neuzustarten',
+            status: 'Konzept',
             para: [
-              'In the event of a catastrophic outage, the Network should be able to rebuild itself because it maintains the integrity of essential data (such as chain history) which enables it to start functioning again on the basis of the last known state of the Network.'
+              'Im Falle eines katastrophalen Ausfalls sollte das Netzwerk in der Lage sein, sich selbst wieder aufzubauen, da es die Integrität wesentlicher Daten (z.B. des Kettenverlaufs) erhält und auf der Grundlage des letzten bekannten Status des Netzwerks wieder funktionsfähig wird.'
             ],
           }, {
-            feature: 'RDF Support',
-            desc: 'The Network will have native support for RDF, enabling data to be compatible with the Semantic Web',
+            feature: 'RDF Unterstützung',
+            desc: 'Das Netzwerk wird native Unterstützung für RDF bieten, sodass Daten mit dem Semantic Web kompatibel sind',
             status: 'RFC',
             para: [
-              'Ensures that data on the SAFE Network is stored in such a way that the format can be understood by other Semantic Web projects, such as Solid.'
+              'Stellt sicher, dass Daten im SAFE Network sо gespeichert werden, dass der Aufbau von anderen Semantic Web-Projekten wie Solid verstanden werden kann.'
             ],
             CTA: {
-              name: 'Read the RFC',
+              name: 'Lesen Sie den RFC',
               url: 'https://github.com/nbaksalyar/rfcs/blob/master/text/0000-rdf-in-client-libs/0000-rdf-in-client-libs.md'
             },
           }, {
-            feature: 'Obfuscating stored data',
-            desc: 'All data stored within a Vault on an individual’s computer must be entirely encrypted and unreadable',
-            status: 'Concept',
+            feature: 'Verschleierung gespeicherter Daten',
+            desc: 'Alle Daten, die in einem Tresor auf dem Computer einer Person gespeichert sind, müssen vollständig verschlüsselt und nicht lesbar sein',
+            status: 'Konzept',
             para: [
-              'Ensures that even the smallest piece of data that is stored in a Vault cannot be read by the person controlling the computer on which it is stored.'
+              'Stellt sicher, dass selbst die kleinsten Datenstücke, die in einem Tresor gespeichert sind, von der Person, die den Computer steuert, auf dem diese Datenstücke gespeichert sind, nicht gelesen werden können.'
             ],
           }, {
-            feature: 'Common Coin',
-            desc: 'Replace our concrete coin with a common coin to make PARSEC fully asynchronous',
+            feature: 'Gemeinsame Münze',
+            desc: 'Ersetzen Sie unsere Betonmünze durch eine gewöhnliche Münze, um PARSEC vollständig asynchron zu machen',
             status: 'Design',
             para: [
-              'Common coin is a device that nodes can use to generate a “random” binary value (true or false). Every time a node flips the coin, all other nodes are guaranteed to observe the same value for their coin flip. Also, the value must be unpredictable, which means that no malicious node can know the outcome before a honest node has observed it.'
+              'Eine gewöhnliche Münze ist ein Gerät, mit dem Knoten einen “zufälligen” Binärwert (richtig oder falsch) generieren können. Jedes Mal, wenn ein Knoten die Münze wirft, wird garantiert, dass alle anderen Knoten den gleichen Wert für ihren Münzwurf beobachten. Außerdem muss der Wert unvorhersehbar sein, was bedeutet, dass kein böswilliger Knoten das Ergebnis erkennen kann, bevor ein ehrlicher Knoten es beobachtet hat.'
             ],
           }
         ]
@@ -301,67 +301,67 @@ export default {
     }
   },
   apps: {
-    title: 'Apps and User Experience',
+    title: 'Apps und Benutzererfahrung',
     list: [
       {
         id: 'safeBrowser',
         name: 'SAFE Browser',
-        para: 'The latest release includes some of the beginnings of the Perpetual Web. Please note that it\'s only compatible with the Vaults Phase 1 release.',
+        para: 'Die neueste Version enthält einige der Anfänge des Perpetual Webs, sowie den Authentifikator: so können Sie sich sicher beim SAFE Network anmelden und den Zugriff und die Berechtigungen von SAFE Apps verwalten.',
         status: 'Latest Version v0.16.0'
       }
     ],
     currentMilestone: {
-      status: 'Current Milestone',
-      title: 'The Perpetual Web',
-      para: 'The SAFE Network is designed to ensure that public data is permanent and can never be deleted. Individuals and groups can choose to keep their data private, but once it’s been published, it will remain permanently available. This milestone aims to showcase the incredible power of this facet of the Network, by building out the User Experience, and iterating on it right through to launch.',
+      status: 'LAUFENDER MEILENSTEIN',
+      title: 'Das ewige Web',
+      para: 'Das SAFE Network soll sicherstellen, dass öffentliche Daten dauerhaft sind und niemals gelöscht werden können. Einzelpersonen und Gruppen können ihre Daten privat halten. Sobald sie veröffentlicht wurden, bleiben sie dauerhaft verfügbar. Dieser Meilenstein zielt darauf ab, die unglaubliche Leistungsfähigkeit dieses Aspektes des Netzwerks zu demonstrieren, indem die Benutzererfahrung ausgebaut und bis zum Start wiederholt wird.',
       accordion: {
         header: [
-          'Milestone Features',
-          'Description',
+          'Meilenstein Eigenschaften',
+          'Beschreibung',
           'Status'
         ],
         items: [
           {
             feature: 'SAFE Browser',
-            desc: 'Enhancements to the browser designed specifically to take advantage of the functionalities of the Perpetual Web',
-            status: 'Complete',
+            desc: 'Browser Verbesserungen, die speziell entwickelt wurden, um die Eigenschaften des ewigen Webs zu nutzen',
+            status: 'Komplett',
             para: [
-              'The SAFE Browser functionality will be extended to incorporate new features that are unique to the Perpetual Web, such as the ability to roll-back through the version history of any SAFE website or asset.'
+              'Die SAFE-Browser-Funktionalität wird um neue Eigenschaften erweitert, die nur im ewigen Web verfügbar sind, z.B. die Möglichkeit, den Versionsverlauf einer SAFE Website oder eines SAFE Vermögens zurückzusetzen.'
             ],
           },
           {
             feature: 'Mobile Browser',
-            desc: 'Mobile version of SAFE browser which is limited to browsing published data from the SAFE Network',
-            status: 'Complete',
+            desc: 'Mobile Version des SAFE Browsers, die sich auf das Durchsuchen veröffentlichter Daten aus dem SAFE Network beschränkt',
+            status: 'Komplett',
             para: [
-              'Enables individuals to access the SAFE Network directly by using a browser on their mobile phone'
+              'Ermöglicht Einzelpersonen den direkten Zugriff auf das SAFE Network mithilfe eines Browsers auf ihrem Mobiltelefon'
             ],
           },
           {
-            feature: 'Data Manager',
-            desc: 'Streamlined publishing of SAFE sites and Perpetual Data',
-            status: 'Development',
+            feature: 'Datenmanager',
+            desc: 'Optimierte Veröffentlichung von SAFE Sites und ewige Daten',
+            status: 'Entwicklung',
             para: [
-              'A suite of tools which provides the necessary functionality to add data to the SAFE Network, publish perpetual data, and manage Public Names. This will supersede the Web Hosting Manager.'
+              'Eine Reihe von Tools, die die erforderlichen Funktionalitäten zur Datenhinzufügung zum SAFE Network, zu Veröffentlichen fortlaufender Daten und öffentliche Namen verwalten. Dies ersetzt den Webhosting Manager.'
             ],
           },
           {
             feature: 'SAFE CLI',
-            desc: 'An advanced CLI to manage accounts and data',
-            status: 'Complete',
+            desc: 'Eine erweiterte CLI zum Verwalten von Knoten und Daten',
+            status: 'Komplett',
             para: [
-              'A command line tool to manage data on the SAFE Network. It will allow the user to store data on the network and manage accounts, identities, and permissions. This is the tool that the frontend apps and features—such as the Data Manager—will build upon.'
+              'Ein Befehlszeilentool zur Datenverwaltung im SAFE Network. Der Benutzer kann Daten im Netzwerk speichern und Knoten, Identitäten und Berechtigungen verwalten. Dies ist das Tool, auf dem die Frontend- Apps und -Funktionen wie der Datenmanager aufgebaut werden.'
             ],
           },
           {
-            feature: 'Public Name System',
-            desc: 'Content stored should be accessible with human-readable URLs, via a decentralised domain name system: the Public Name System',
-            status: 'Complete',
+            feature: 'Öffentliches Namenssystem',
+            desc: 'Gespeicherte Inhalte sollten mit lesbaren URLs über ein dezentralisiertes Domain Name System, zugänglich sein: das Öffentliche Namenssystem',
+            status: 'Komplett',
             para: [
-              'A domain name system translates numerical IP addresses into a format that can be read by humans (eg. http//216.58.206.35 resolves to Google.com). The current web relies on a centralised organisation to maintain that record. The SAFE Network requires this process to be outside the control of a single party in order to avoid censorship and repression.'
+              'Ein Domain Name System übersetzt zahlenmäßige IP Adressen in ein Format, das von Menschen gelesen werden kann (z.B. http//216.58.206.35 wird in Google.com aufgelöst). Das aktuelle Web ist auf eine zentralisierte Organisation gebaut, um diese Aufzeichnung zu verwalten. Das SAFE Network verlangt, dass dieser Prozess außerhalb der Kontrolle einer einzelnen Seite liegt, um Zensure und Unterdrückung zu vermeiden.'
             ],
             CTA: {
-              name: 'Read the RFC',
+              name: 'Lesen Sie den RFC',
               url: 'https://github.com/maidsafe/rfcs/issues/283'
             },
           },
