@@ -369,126 +369,126 @@ export default {
       }
     },
     upcomingMilestones: {
-      status: 'Upcoming Milestones',
+      status: 'KOMMENDE MEILENSTEINE',
       list: [
         {
-          title: 'Private Communications',
-          para: 'If we want a world in which individuals can communicate freely whenever they choose, privacy is essential. This milestone aims to deliver just that.',
+          title: 'Private Kommunikation',
+          para: 'Wenn wir eine Welt wollen, in der Einzelpersonen jederzeit frei kommunizieren können, ist Privatsphäre unerlässlich. Dieser Meilenstein zielt darauf ab, genau das zu erreichen.',
           accordion: {
             header: [
-              'Milestone Features',
-              'Description',
+              'Meilenstein Funktionen',
+              'Beschreibung',
               'Status'
             ],
             items: [
               {
-                feature: 'Private Messaging',
-                desc: 'Send secure private messages between clients',
-                status: 'Concept',
+                feature: 'Private Nachrichten',
+                desc: 'Senden Sie sichere private Nachrichten zwischen Kunden',
+                status: 'Konzept',
                 para: [
-                  'One of the most sought after features of the SAFE Network: secure, private, instant messaging.'
+                  'Eine der gefragtesten Funktionen des SAFE Networks: sichere, private und sofortige Nachrichtenübermittlung.'
                 ],
               },
               {
-                feature: 'Identity Management',
-                desc: 'Ability for users to create and manage multiple identities',
-                status: 'Concept',
+                feature: 'Identitätsmanagement',
+                desc: 'Möglichkeit für Benutzer, mehrere Identitäten zu erstellen und zu verwalten',
+                status: 'Konzept',
                 para: [
-                  'Improves the user experience for individuals as they switch between the identities (or profiles) that they choose to represent themselves with on the SAFE Network, without the need to create multiple accounts.'
+                  'Verbessert die Benutzererfahrung für Einzelpersonen, wenn sie zwischen den Identitäten (oder Profilen) wechseln, mit denen sie sich im SAFE Network darstellen möchten, ohne dass mehrere Konten erstellt werden müssen.'
                 ],
               },
               {
-                feature: 'Contacts Management',
-                desc: 'Find, connect and stay up-to-date with other SAFE Network users  ',
-                status: 'Concept',
+                feature: 'Kontaktverwaltung',
+                desc: 'Finden Sie, verbinden Sie und bleiben Sie mit anderen SAFE Network Benutzern auf dem Laufenden',
+                status: 'Konzept',
                 para: [
-                  'Enables SAFE users to find and connect with other people across a range of applications in a consistent way.'
+                  'Ermöglicht den SAFE Benutzern das konsistente Finden und Verbinden mit anderen Personen in einer Reihe von Anwendungen.'
                 ],
               },
             ]
           }
         },
         {
-          title: 'Take Control of Your Data',
-          para: 'The SAFE Network turns the current data ownership model on its head. Personal information will no longer be stored on corporate servers. Self Authentication gives you complete control over your data. You can grant (and revoke) permission for apps to use your data at any time and prevent any unauthorised company or third party ever gaining access.',
+          title: 'Übernehmen Sie die Kontrolle über Ihre Daten',
+          para: 'Das SAFE Network stellt das aktuelle Dateneigentumsmodell auf den Kopf. Persönliche Informationen werden nicht mehr auf Unternehmensservern gespeichert. Durch die Selbstauthentifizierung haben Sie die vollständige Kontrolle über Ihre Daten. Sie können Apps jederzeit die Erlaubnis erteilen (und widerrufen), Ihre Daten zu verwenden, und auch verhindern, dass nicht autorisierte Unternehmen oder Dritte jemals Zugriff erhalten.',
           accordion: {
             header: [
-              'Milestone Features',
-              'Description',
+              'Meilenstein Funktionen',
+              'Beschreibung',
               'Status'
             ],
             items: [
               {
-                feature: 'Data Manager',
-                desc: 'Fine-grained management of your personal data',
-                status: 'Concept',
+                feature: 'Datenmanager',
+                desc: 'Feinkörnige Verwaltung Ihrer persönlichen Daten',
+                status: 'Konzept',
                 para: [
-                  'The extension of the Data Manager tool to allow fine-grained control by individuals over their private and unpublished data.'
+                  'Die Erweiterung des Datenmanager-Tools, um Einzelpersonen eine detaillierte Kontrolle über ihre privaten und unveröffentlichten Daten zu ermöglichen.'
                 ],
               },
               {
-                feature: 'RDF Support',
-                desc: 'Support storing and querying RDF resources in SAFE-Core',
+                feature: 'RDF Unterstützung',
+                desc: 'Unterstützung beim Speichern und Abfragen von RDF Ressourcen in SAFE Core',
                 status: 'RFC',
                 para: [
-                  'Ensures that the SAFE Network understands a way of describing the architecture of data that is understood by other projects, such as Solid'
+                  'Stellt sicher, dass das SAFE Network eine Methode zur Beschreibung der Datenarchitektur versteht. Und sie wird von anderen Projekten wie Solid verstanden.'
                 ],
                 CTA: {
-                  name: 'Read the RFC',
+                  name: 'Lesen Sie den',
                   url: 'https://github.com/maidsafe/rfcs/issues/289'
                 },
               },
               {
-                feature: 'SPARQL Support',
-                desc: 'Add native support for SPARQL to allow searching of data',
-                status: 'Concept',
+                feature: 'SPARQL Unterstützung',
+                desc: 'Fügen Sie native Unterstützung für SPARQL hinzu, um die Datensuche zu ermöglichen',
+                status: 'Konzept',
                 para: [
-                  'Enhances the functionality of SAFE by adding SPARQL support to SAFE Client Libs and SAFE Vault.  This ensures that the Network can understand a well-known semantic query language, and enables users to search.'
+                  'Verbessert die SAFE Funktionalität durch Hinzufügen von SPARQL Unterstützung zu SAFE Kundenlabors und SAFE Gewölbe. Dies stellt sicher, dass das Netzwerk eine bekannte semantische Abfragesprache verstehen kann, und ermöglicht Benutzern die Suche.'
                 ],
               },
               {
-                feature: 'Collaboration',
-                desc: 'Tools to enable collaboration through sharing and group permissions on private unpublished data',
-                status: 'Concept',
+                feature: 'Zusammenarbeit',
+                desc: 'Tools, die die Zusammenarbeit durch Freigabe und Gruppenberechtigungen für private unveröffentlichte Daten, aktivieren',
+                status: 'Konzept',
                 para: [
-                  'Manage sharing and permissions of private, unpublised data and files, for collaboration between individuals and groups. '
+                  'Verwalten Sie die Freigabe und Berechtigungen von privaten, nicht veröffentlichten Daten und Dateien, für die Zusammenarbeit zwischen Einzelpersonen und Gruppen. '
                 ],
               },
               {
                 feature: 'XOR URLs',
-                desc: 'A way of sharing and accessing SAFE Network files without the need for a Public Name',
-                status: 'Complete',
+                desc: 'Eine Weise zum Teilen und Zugreifen auf SAFE Netzwerkdateien, ohne dass ein öffentlicher Name erforderlich ist',
+                status: 'Komplett',
                 para: [
-                  'Create a system of standardised URL’s on the SAFE Network that are based on the XOR address of the content being referenced. Ensures that individuals can access and locate  data and files in a more user-friendly manner.'
+                  'Erstellen Sie im SAFE Network ein System standardisierter URLS, die auf der XOR Adresse des Inhalts basieren, auf den verweisen wird. Stellt sicher, dass Einzelpersonen benutzerfreundlicher auf Daten und Dateien zugreifen und diese finden können.'
                 ],
               }
             ]
           }
         },
         {
-          title: 'The New Digital Economy',
-          para: 'The new digital economy is all about ensuring that you no longer pay for your digital life with data. Instead, you use a cryptocurrency that’s integral and distributed by the SAFE Network. You earn value in return for providing resources to the Network.',
+          title: 'Die neue digitale Wirtschaft',
+          para: 'In der neuen digitalen Wirtschaft geht es darum, sicherzustellen, dass Sie Ihr digitales Leben nicht mehr mit Daten bezahlen. Stattdessen verwenden Sie eine Kryptowährung, die vom SAFE Network integriert und verteilt wird. Sie verdienen Wert als Gegenleistung für die Bereitstellung von Ressourcen für das Netzwerk.',
           accordion: {
             header: [
-              'Milestone Features',
-              'Description',
+              'Meilenstein Funktionen',
+              'Beschreibung',
               'Status'
             ],
             items: [
               {
-                feature: 'Test Safecoin Wallet',
-                desc: 'Transact using Test Safecoins',
-                status: 'Development',
+                feature: 'Testen Sie Safecoin Geldbörse',
+                desc: 'Transaktionen mit Test Safecoins',
+                status: 'Entwicklung',
                 para: [
-                  'Users will be able to use Test Safecoin in the Network, allowing an ecosystem to built around the SAFE incentive mechanism. The ability to create multiple wallets, associate them with an identity, and also one-time-use wallets to enable anonymous transactions, will all be part of this.',
+                  'Benutzer können Test Safecoin im Netzwerk verwenden, sodass ein Ökosystem sich auf dem SAFE Anreizmechanismus aufbauen kann. Dazu gehört auch die Möglichkeit, mehrere Brieftaschen zu erstellen, sie einer Identität zuzuordnen und Brieftaschen zur einmaligen Verwendung anzuordnen, um anonyme Transaktionen zu ermöglichen.',
                 ],
               },
               {
-                feature: 'Vault User Interface',
-                desc: 'Easily set up, run, and manage a Vault',
-                status: 'Concept',
+                feature: 'Gewölbe Benutzeroberfläche',
+                desc: 'Einfaches Einrichten, Ausführen und Verwalten eines Tresors',
+                status: 'Konzept',
                 para: [
-                  'Users will see greatly-improved Vault User Experience. Anyone providing storage to the Network can expect to see a number of usability improvements, making it easy to offer resources and start farming on everyday home computers and devices.'
+                  'Benutzer werden eine stark verbesserte Gewölbe-Benutzererfahrung sehen. Jeder, der Speicher für das Netzwerk bereitstellt, kann mit einer Reihe von Verbesserungen der Benutzerfreundlichkeit rechnen, die es einfach machen, Ressourcen anzubieten und mit der Landwirtschaft auf alltäglichen Heimcomputern und Geräten zu beginnen.'
                 ],
               },
             ]
