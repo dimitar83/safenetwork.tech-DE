@@ -1,64 +1,64 @@
   export default {
-  title: 'Frequently Asked Questions',
+  title: 'Häufig gestellte Fragen',
   sections: [
     {
-      title: 'About the SAFE Network',
+      title: 'Über das SAFE Network',
       items: [
         {
-          question: 'What is the SAFE Network?',
+          question: 'Was ist das SAFE Network?',
           answer: [
-            'The SAFE (Secure Access For Everyone) Network is a new secure way to access apps that value the security of your data above all else. Downloading the free SAFE software will provide access to: messaging, apps, email, social networks, data storage, video conferencing, and much more.',
-            'Rather than using data centres and servers which are prone to data theft and surveillance, as is common on today\'s Internet, the SAFE Network uses advanced peer-to-peer technology that joins together the spare computing capacity of all SAFE users, creating a global network.',
-            'The SAFE Network is made up of the unused hard drive space, processing power and data connection of its users. It offers a level of security and privacy not currently available on the existing Internet and turns the tables on companies, putting users in control of their data, rather than trusting it to organisations.',
-            'By providing your unused computing resources to SAFE, you will be paid in a network token called [Safecoin](/safecoin).'
+            'Das SAFE Network (sicherer Zugang für alle) ist eine neue sichere Möglichkeit, auf Anwendungen zuzugreifen, die vor allem die Sicherheit Ihrer Daten schätzen. Durch das Herunterladen der kostenlosen SAFE Software erhalten Sie Zugriff auf: Benachrichtigungen, Anwendungen, Emails, soziale Netzwerke, Datensicherung, Videokonferenzen und vieles mehr.',
+            'Anstatt wie im heutigen Internet üblich Rechenzentren und Server zu verwenden, die für Datendiebstahl und -überwachung anfällig sind, verwendet das SAFE Network fortschrittliche Peer-to-Peer Technologie, die die freie Rechenkapazität aller SAFE Benutzer zusammenführt und ein globales Netzwerk schafft.',
+            'Das SAFE Network besteht aus dem nicht genutzten Festplattenspeicher, der Verarbeitungsleistung und der Datenverbindung seiner Benutzer. Es bietet ein Maß an Sicherheit und Datenschutz, das derzeit im vorhandenen Internet nicht verfügbar ist, und stellt Unternehmen auf den Kopf, sodass Benutzer die Kontrolle über ihre Daten haben, anstatt sie Organisationen anzuvertrauen.',
+            'Wenn Sie SAFE Ihre nicht verwendeten Computerressourcen zur Verfügung stellen, werden Sie mit einem Netzwerk Token namens [Safecoin](/safecoin) bezahlt.'
           ]
         },
         {
-          question: 'What is an Autonomous Network?',
+          question: 'Was ist ein autonomes Netzwerk?',
           answer: [
-            'An Autonomous Network is one which has no human gatekeepers. Anyone is able to join and—crucially—no-one can be prevented from taking part.',
-            'From the moment you upload your encrypted data, no human is required to ensure that your data remains secure and accessible until you alone choose to access it. Without the involvement of humans, the SAFE Network intelligently moves chunks of your data between nodes that it also constantly reassigns to different groups in order to provide total security and privacy at all times. You decide what information you will store—and the autonomous Network secures it to ensure that you retain total control.',
-            '_[Read more about Autonomous Networks](https://metaquestions.me/2017/08/12/the-impossible-network/)_'
+            'Ein autonomes Netzwerk hat kein menschliche Informationsregulator. Jeder kann mitmachen und -entscheidend-niemand kann daran gehindert werden, daran teilzunehmen.',
+            'Ab dem Moment, in dem Sie Ihre verschlüsselten Daten hochladen, muss kein Mensch sicherstellen, dass Ihre Daten sicher und zugänglich bleiben, bis Sie sich allein für den Zugriff entscheiden. Ohne die Beteiligung von Menschen, verschiebt das SAFE Network intelligent Teile Ihrer Daten zwischen Knoten, die es auch ständig verschiedenen Gruppen zuweist, um jederzeit absolute Sicherheit und Datenschutz zu gewährleisten. Sie entscheiden welche Informationen Sie speichern- und das autonome Netzwerk sichert sie, dass Sie die vollständige Kontrolle behalten.',
+            '_[Lesen Sie mehr über autonome Netzwerk](https://metaquestions.me/2017/08/12/the-impossible-network/)_'
           ]
         },
         {
-          question: 'Why should I use the SAFE Network?',
+          question: 'Warum sollte ich das SAFE Network verwenden?',
           answer: [
-            'Applications and programs on the existing Internet compromise your privacy through advertising and effectively control your data, granting you access when you login. On the SAFE Network, only you control who has access to your data and the distributed security features make your data safer than ever before. If you contribute some of your spare computing power to the network, you will be compensated for doing so with the Network’s built-in token, [Safecoin](/safecoin).'
+            'Anwendungen und Programme im vorhandenen Internet gefährden Ihre Privatsphäre durch Werbung und steuern Ihre Daten effektiv, sodass Sie beim Anmelden Zugriff erhalten. Im SAFE Network steuern nur Sie, wer Zugriff auf Ihre Daten hat, und die verteilten Sicherheitsfunktionen machen Ihre Daten sicherer als je zuvor. Wenn Sie einen Teil Ihrer freien Rechenleistung im Netzwerk einbringen, werden Sie dafür mit dem im Netzwerk integrierten Token [Safecoin](/safecoin) entschädigt.'
           ]
         },
         {
-          question: 'Who owns the SAFE Network?',
+          question: 'Wem gehört das SAFE Network?',
           answer: [
-            '**No one.**',
-            'The SAFE Network is [open source](https://github.com/maidsafe). Our vision is to create a resource that can be used by everyone to spread all human knowledge and to facilitate sharing across the planet, regardless of country of residence, culture, or economic background.'
+            '**Niemand.**',
+            'Das SAFE Network ist [quelloffen](https://github.com/maidsafe). Unsere Vorstellung ist es, eine Ressource zu schaffen, die von jedem genutzt werden kann, um das gesamte menschliche Wissen zu verbreiten und den Austausch auf der ganzen Welt zu erleichtern, unabhängig von Wohnsitzland, Kultur oder wirtschaftlichem Hintergrund.'
           ]
         },
         {
-          question: 'Who are MaidSafe?',
+          question: 'Wer sind MaidSafe?',
           answer: [
-            'Started in 2006 by Scottish engineer David Irvine, MaidSafe are the core developers of the SAFE Network.  It’s a small team comprised of: thinkers, inventors, tinkerers, PhDs, engineers and designers. Although based in Ayr, Scotland, we work remotely with talents from many different cultures and countries, reflecting the users that we serve. Despite this variety, we all share a single mission: providing security and privacy for everyone.',
-            '_[Visit Maidsafe.net](https://maidsafe.net)_'
+            'MaidSafe wurde 2006 vom schottischen Ingenieur David Irvine gegründet und ist der Hauptentwickler des SAFE Networks. Es ist ein kleines Team bestehend aus: Denker, Erfindern, Bastlern, Doktoranden, Ingenieuren und Designer. Obwohl wir in Ayr, Schottland, ansässig sind, arbeiten wir entfernt mit Talenten aus vielen verschiedenen Kulturen und Ländern zusammen, um die Benutzer widerspiegeln, denen wir dienen. Trotz dieser Vielfalt teilen wir alle eine einzige Aufgabe: Sicherheit und Datenschutz für alle.',
+            '_[Besuchen Sie Maidsafe.net](https://maidsafe.net)_'
           ]
         },
         {
-            question: 'What do I need in order to browse the SAFE Network?',
+            question: 'Was brauche ich, um im SAFE Network zu surfen?',
             answer: [
-              '[Download the SAFE Network App!](https://github.com/maidsafe/safe-network-app/releases/latest)'
+              '[Laden Sie die SAFE Network App herunter!](https://github.com/maidsafe/safe-network-app/releases/latest)'
             ]
           },
         {
-          question: 'How do I get involved with the SAFE Network community?',
+          question: 'Wie kann ich mich in der SAFE Network Gemeinschaft engagieren?',
           answer: [
-            'The Community is most active on the [SAFE Network Forum](https://safenetforum.org/) and we’d suggest starting in the [beginners section](https://safenetforum.org/c/beginners).',
-            '*[Visit the Forum](https://safenetforum.org/)*'
+            'Die Gemeinschaft ist besonders im [SAFE Network Forum](https://safenetforum.org/) aktiv und wir empfehlen im [Abschnitt für Anfänger zu beginnen](https://safenetforum.org/c/beginners).',
+            '*[Besuchen Sie das Forum](https://safenetforum.org/)*'
           ]
         },
         {
-          question: 'How do I get help?',
+          question: 'Wie bekomme ich Hilfe?',
           answer: [
-            'The [SAFE Network Forum](https://safenetforum.org) is the place to head to for all questions on the Network.',
-            '_[Visit the Forum](https://safenetforum.org/)_'
+            'Das [SAFE Network Forum](https://safenetforum.org) ist der Ort, an dem Sie alle Fragen im Netzwerk beantworten können.',
+            '_[Besuchen Sie das Forum](https://safenetforum.org/)_'
           ]
         }
       ]
@@ -89,50 +89,50 @@
     //   ]
     // },
     {
-      title: 'How it works',
+      title: 'Wie es funktioniert',
       items: [
         {
-          question: 'What is a Vault?',
+          question: 'Was ist ein Tresor?',
           answer: [
-            'The SAFE Network is made up of nodes called Vaults. A Vault is a program that runs on a device which connects the machine to the Network. Collectively, Vaults manage the storage of all data on the Network by managing the movement of chunks of encrypted user data that are stored across the Network. No Farmer (user) can ever decrypt a chunk of data that his or her Vault receives and, in return for providing the storage capacity to the Network, is rewarded with Safecoin.',
-            'Vaults ensure that the events occurring on the Network are valid. They are clustered into small groups, each with responsibility for looking after the data stored within a Section (a certain range of addresses).',
-            'These groups of nodes form, merge and split without any human oversight as the SAFE Network itself has complete control of the process. In the same way, the encrypted data chunks move around the Network in a fully autonomous way. No central servers or agents (like BitTorrent trackers) are required by the Network. No central authority oversees the proceedings.',
-            'Just as children are not allowed to vote in elections, a Vault is not allowed to vote on Network events (such as a new member joining or the storage of a data chunk) until it has proven itself to be reliable. Initially, a Vault has to successfully complete a [Proof of Resource](https://www.youtube.com/watch?v=rdczpOlLaVk) request to join the Network, proving that it can provide a certain amount of bandwidth and CPU capacity. It is then assigned to a Section and given a low Node Age. This is a measure of its trustworthiness. After that initial connection, the Network will autonomously move (churn) that Vault at random from Section to Section, giving it the opportunity to build its reputation (Node Age). Once its Node Age reaches a certain value, it can be an active participant in group decisions. A Vault with the greatest Node Age in a Section is known as an Elder. As a result, because new Vaults must prove their worth in various random Sections before they can vote, targeting a particular Section on the SAFE Network by an attacker is close to impossible.',
-            'Vaults also cryptographically check messages and take on more defined roles, called personas. Each Vault will have a Client Manager persona. This keeps a record of the account details for each Client (user) within its Section. For example, this will confirm how much data has been uploaded to the Network, how much is being stored and the balance of Safecoin remaining to fund further uploads. Whilst a Client Manager will know the account balance, it has no way of linking this to an identity (i.e. an IP address, username or public identity).',
-            'Each Vault also has a Data Manager persona. This manages where encrypted chunks of other users’ data is held and has responsibility for the chunks in its Section.'
+            'Das SAFE Network besteht aus Knoten, die als Tresore bezeichnet werden. Ein Tresor ist ein Programm, das auf einem Gerät ausgeführt wird, das den Computer mit dem Netzwerk verbindet. Gemeinsam verwalten die Tresore die Speicherung aller Daten im Netzwerk, indem sie die Verschiebung von Teile verschlüsselter Benutzerdaten verwalten, die im Netzwerk gespeichert sind. Kein Landwirt (Benutzer) kann jemals einen Datenblock entschlüsseln, den sein Tresor erhält, und wird im Gegenzug für die Bereitstellung der Speicherkapazität für das Netzwerk mit Safecoin belohnt.',
+            'Tresore stellen sicher, dass die im Netzwerk auftretenden Ereignisse gültig sind. Sie sind in kleinen Gruppen zusammengefasst, die jeweils für die Pflege der in einem Abschnitt gespeicherten Daten (eines bestimmten Adressbereichs) verantwortlich sind.',
+            'Diese Knotengruppen bilden, sortieren und teilen sich ohne menschliches Versehen, da das SAFE Network selbst die vollständige Kontrolle über den Prozess hat. Auf die gleiche Weise bewegen sich die verschlüsselten Datenblöcke vollständig autonom im Netzwerk. Das Netzwerk benötigt keine zentralen Server oder Agenten (wie BitTorrent-Nachführeinrichtung). Keine zentrale Behörde betreut das Verfahren.',
+            'So wie Kinder bei Wahlen nicht wählen dürfen, darf ein Tresor nicht über Netzwerkereignisse (z.B. den Beitritt eines neuen Mitglieds oder die Speicherung eines Datenblocks) abstimmen, bis sich dies als zuverlässig bewiesen hat. Zunächst muss ein Tresor ein [Nachweis der Ressourcenanforderung](https://www.youtube.com/watch?v=rdczpOlLaVk) erfolgreich abschließen, um dem Netzwerk beizutreten, um zu beweisen, dass er eine bestimmte Menge an Bandbreite und CPU Kapazität bereitstellen kann. Es wird dann einem Abschnitt zugewiesen und erhält ein niedriges Knotenalter. Dies ist ein Maß für die Vertrauenswürdigkeit. Nach dieser ersten Verbindung wird das Netzwerk zufällig diesen Tresor autonom von Abschnitt zu Abschnitt verschieben (walken), wodurch es die Möglichkeit erhält, seinen Ruf aufzubauen (Knotenalter). Sobald sein Knotenalter einen bestimmten Wert erreicht, kann er aktiv an Gruppenentscheidungen teilnehmen. Ein Tresor mit dem größten Knotenalter in einem Abschnitt wird als Ältester bezeichnet. Da sich neue Tresore in verschiedenen zufälligen Abschnitten bewähren müssen, bevor sie abstimmen können, ist es nahezu unmöglich, dass ein Angreifer einen bestimmten Abschnitt im SAFE Network angreift.',
+            'Tresore überprüfen Nachrichten auch kryptografisch und übernehmen festgelegte Rollen, sogenannte Personas. Jeder Tresor hat ein Kunde Manager Persona. Dadurch werden die Kontoeinzelheiten für jeden Kunden (Benutzer) in seinem Abschnitt aufgezeichnet. Dies bestätigt beispielsweise, wie viele Daten in das Netzwerk hochgeladen wurden, wie viel gespeichert wird und wie viel Safecoin noch zur Finanzierung weiterer Uploads übrig ist. Ein Kundenmanager kennt zwar den Kontostand, kann ihn jedoch nicht mit einer Identität (d.H. einer IP-Adresse, einem Benutzernamen oder einer öffentlichen Identität) verknüpfen.',
+            'Jeder Tresor hat auch eine Datenmanager Persona. Dies verwaltet, wo verschlüsselte Teile der Daten anderer Benutzer gespeichert werden, und ist für die Teile in seinem Abschnitt verantwortlich.'
           ]
         },
         {
-          question: 'Why do we need an Autonomous Network?',
+          question: 'Warum brauchen wir ein autonomes Netzwerk?',
           answer: [
-            'An autonomous network is one that manages all of our data and communications without any human intervention and no intermediaries. It is a network that configures itself. Resources are not added by a centralised IT administrator—reducing the opportunity for malicious or negligent activities. The Network becomes permissionless—participation is open to all who seek it, removing the risks of monopolisation by single entities whose power can grow unchecked.',
-            'Many data breaches are caused by human error. But the issue is more fundamental. We are becoming increasingly reliant on systems in which our data is stored by others. As more of our personal data in the hands of third parties, the risks of failure grow higher by the day. We already see our data being used for purposes that we dislike today. How likely is it that your access will be revoked entirely? That you will no longer control that stream of data about your life? In some countries, that is already a reality.',
-            'We can improve physical security. We must ensure that data cannot be deleted, changed, corrupted or accessed without the data owner’s consent. And only by removing humans from the management of our data can physical security be provided. You must have storage locations that are unknown to anyone but the network and one in which the user cannot be identified. Only an autonomous network provides this level of security.',
-            'An autonomous network automatically splits and encrypts (using self-encryption) all data before storing this dynamically at locations that it selects. Nodes join anonymously and the Network will constantly move these nodes between groups—again without any human intervention or centralised record. Together each group of nodes takes decisions based on the messages that they receive.',
-            'An autonomous network is also able to create additional copies of popular data which means that requests are served more quickly. At the same time, the Network itself can identify duplicate copies of identical data and reduce these to a minimum.',
-            'Our design approach is influenced by the humble ant. Ant colonies exhibit complex and highly organised behaviour on a massive scale without reliance on a central authority. Instead, each ant fulfils different duties based on the needs of the colony. In a similar way, nodes on the SAFE Network perform different functions based on the types of messages that they need.',
-            'So why do we need an autonomous network? Because humans make mistakes, centralised storage facilities are prone to failure—and we collectively need to build a platform upon which mankind can collaborate as we move into the future.'
+            'Ein autonomes Netzwerk ist eines, dass alle unsere Daten und Kommunikationen ohne menschliches Eingreifen und ohne Vermittler verwaltet. Es ist ein Netzwerk, das sich selbst konfiguriert. Ressourcen werden nicht von einem zentralen IT-Verwalter hinzugefügt, wodurch die Möglichkeit böswilliger oder fahrlässiger Aktivitäten verringert wird. Das Netzwerk wird erlaubnislos - die Teilnahme steht allen offen, die es suchen, und beseitigt das Risiko einer Monopolisierung durch einzelne Einheiten, deren Macht ungeprüft wachsen kann.',
+            'Viele Datenbrüche werden durch menschliches Versagen verursacht. Das Problem ist jedoch grundlegender. Wir sind zunehmend auf Systeme angewiesen, in denen unsere Daten von anderen gespeichert werden. Da mehr unserer personenbezogenen Daten in die Hände Dritter gelangen, steigt das Ausfallrisiko von Tag zu Tag. Wir sehen bereits, dass unsere Daten für Zwecke verwendet werden, die wir heute nicht mögen. Wie wahrscheinlich ist es, dass Ihr Zugriff vollständig widerrufen wird? Wie wahrscheinlich ist es, dass Sie diesen Datenstrom über Ihr Leben nicht mehr kontrollieren werden? In einigen Ländern ist dies bereits Realität.',
+            'Wir können die physische Sicherheit verbessern. Wir müssen sicherstellen, dass Daten ohne Zustimmung des Dateneigentürmers nicht gelöscht, geändert, beschädigt oder abgerufen werden können. Und nur durch das Entfernen von Menschen aus der Verwaltung unserer Daten kann physische Sicherheit gewährleistet werden. Sie müssen über Speicherorte verfügen, die nur dem Netzwerk bekannt sind und in denen der Benutzer nicht identifiziert werden kann. Nur ein autonomes Netzwerk bietet diese Sicherheitsstufe an.',
+            'Ein autonomes Netzwerk teilt und verschlüsselt automatisch alle Daten ( mithilfe der Selbstverschlüsselung), bevor diese dynamisch an den von ihm ausgewählten Orten gespeichert werden. Knoten werden anonym verbunden, und das Netzwerk verschiebt diese Knoten ständig zwischen Gruppen- wiederum ohne menschliches Eingreifen oder zentralisierte Aufzeichnung. Zusammen trifft jede Knotengruppe Entscheidungen basierend auf den Nachrichten, die sie empfangen.',
+            'Ein autonomes Netzwerk kann auch zusätzliche Kopien beliebter Daten erstellen, wodurch Anfragen schneller bearbeitet werden. Gleichzeitig kann das Netzwerk selbst doppelte Kopien identischer Daten identifizieren und auf ein Minimum reduzieren.',
+            'Unser Designansatz wird von der bescheidenen Ameise beeinflusst. Ameisenkolonien zeigen in großem Umfang ein komplexes und hoch organisiertes Verhalten, ohne auf eine zentrale Behörde angewiesen zu sein. Stattdessen erfüllt jede Ameise je nach den Koloniebedürfnissen unterschiedliche Aufgaben. In ähnlicher Weise führen Knoten im SAFE Network je nach den benötigten Nachrichtentypen unterschiedliche Funktionen aus.',
+            'Wieso brauchen wir also ein autonomes Netzwerk? Da Menschen Fehler machen, sind zentralisierte Lagereinrichtungen anfällig für Ausfälle -und wir müssen gemeinsam eine Plattform aufbauen, auf der die Menschheit zusammenarbeiten kann, wenn wir uns in die Zukunft bewegen.'
           ]
         },
         {
-          question: 'What is Proof of Resource?',
+          question: 'Was ist ein Ressourcennachweis?',
           answer: [
-            'Proof of Resource is the process that measures a Vault’s ability to store and retrieve data chunks. A User’s computer receives a score based on its CPU speed, bandwidth availability, disk space and time online.',
-            'Proof of Resource in the SAFE Network uses a mechanism similar to a Zero Knowledge Proof. The checking mechanism does not need to know what data is being checked—it simply needs to know that the correct data is being held and accurately.'
+            'Ressourcennachweis ist der Prozess, der die Fähigkeit eines Tresors misst, Datenblöcke zu speichern und abzurufen. Der Computer eines Benutzers erhält eine Bewertung basierend auf seiner CPU-Geschwindigkeit, Bandbreitenverfügbarkeit, Speicherplatz und Online-Zeit.',
+            'Der Ressourcennachweis im SAFE Network verwendet einen Mechanismus, der einem Null-Kenntnisnachweis ähnelt. Der Überprüfungsmechanismus muss nicht wissen, welche Daten überprüft werden- er muss lediglich wissen, dass die richtigen Daten gespeichert und korrekt sind.'
           ]
         },
         {
-          question: 'What is self&#8209;encryption?',
+          question: 'Was ist Selbstverschlüsselung?',
           answer: [
-            'Self-encryption is the way in which a piece of data is split and then each chunk is encrypted using the other pieces of that same piece of data. It is a crucial process in the SAFE Network and ensures that the data is unrecognisable and resistant to decryption—even in the event of an encryption algorithm being compromised.',
-            'All data is self-encrypted before it is reaches the SAFE Network. The process is automatic and happens instantaneously.',
-            'As data is saved to a User\'s virtual hard drive, it is broken up into a minimum of three chunks, [hashed](https://en.wikipedia.org/wiki/Hash_function) and then encrypted. To further obfuscate the data, every chunk is passed through an [XOR](https://en.wikipedia.org/wiki/Exclusive_or) function using the hashes of other chunks. Each chunk is then broken up and key value pairs are added to a table in the Users account, called a data map. The data map contains the locations of each chunk that makes up the file. The data map, with hashes before and after encryption, is used when retrieving and decoding the User\'s data, as the encryption process is non-reversible.',
-            'This entire process takes place on the Client (i.e. the User\'s computer) so that data is always encrypted on the network and only Users with the correct credentials can decrypt the file. This also means that passwords can never be stolen from the network as they never pass beyond the Users computer. For additional security the data map is also run through the self-encryption process.',
-            '[Watch a Video Explainer](https://youtu.be/Jnvwv4z17b4)'
+            'Selbstverschlüsselung ist die Art und Weise, wie ein Datenelement aufgeteilt wird und dann jeder Block mit den anderen Teilen desselben Datenelements verschlüsselt wird. Dies ist ein entscheidender Prozess im SAFE Network und stellt sicher, dass die Daten nicht erkennbar und entschlüsselungsbeständig sind- selbst wenn ein Verschlüsselungsalgorithmus kompromittiert wird.',
+            'Alle Daten werden selbst verschlüsselt, bevor sie das SAFE Network erreichen. Der Vorgang erfolgt automatisch und erfolgt sofort.',
+            'Wenn Daten auf der virtuellen Festplatte eines Benutzers gespeichert werden, werden sie in mindestens drei Blöcke aufgeteilt, [gehasht](https://en.wikipedia.org/wiki/Hash_function) and then encrypted. und dann verschlüsselt. Um die Daten weiter zu verschleiern, wird jeder Block unter Verwendung der Hashes anderer Blöcke durch eine [XOR-Funktion](https://en.wikipedia.org/wiki/Exclusive_or) geleitet. Jeder Block wird dann aufgeteilt und Schlüsselwertpaare werden zu einer Tabelle im Benutzerkonto hinzugefügt, die als Datenzuordnung bezeichnet wird. Die Datenzuordnung enthält die Speicherorte der einzelnen Blöcke, aus denen die Datei besteht. Die Datenzuordnung mit Hashes vor und nach der Verschlüsselung wird beim Abrufen und Aufschlüsselung der Benutzerdaten verwendet, da der Verschlüsselungsprozess nicht umkehrbar ist.',
+            'Dieser gesamte Vorgang findet auf dem Client (d.H. dem Computer des Benutzers) statt, sodass die Daten im Netzwerk immer verschlüsselt werden und nur Benutzer mit den richtigen Anmeldeinformationen die Datei entschlüsseln können. Dies bedeutet auch, dass Passwörter niemals aus dem Netzwerk gestohlen werden können, da sie niemals über den Computer des Benutzers hinausgehen. Für zusätzliche Sicherheit wird die Datenzuordnung auch durch den Selbstverschlüsselungsprozess ausgeführt.',
+            '[Sehen Sie sich einen Video-Erklärer an](https://youtu.be/Jnvwv4z17b4)'
           ]
         },
         {
-          question: 'What is PARSEC?',
+          question: 'Was ist PARSEC?',
           answer: [
             '**P**rotocol for **A**synchronous, **R**eliable, **S**ecure & **E**fficient **C**onsensus.',
             'PARSEC is the consensus algorithm which allows decentralised networks to reach agreement on a series of events, actions or activities in a secure and reliable manner that is not only highly asynchronous but also Byzantine Fault Tolerant. In other words, the Network is mathematically guaranteed to reach consensus (provided no more than one-third of nodes are malicious or unresponsive for whatever reason).',
