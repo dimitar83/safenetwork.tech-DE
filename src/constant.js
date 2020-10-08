@@ -14,8 +14,8 @@ export default {
   },
   pageMeta: {
     pressKit: {
-      title: 'Press Kit | SAFE Network',
-      desc: 'Resources for journalists looking to find out more about the new decentralised Internet and how the SAFE Network will benefit data security and privacy'
+      title: 'Pressemappe | SAFE Network',
+      desc: 'Ressourcen für Journalisten, die mehr über das neue dezentrale Internet und die Vorteile des SAFE-Netzwerks für Datensicherheit und Datenschutz erfahren möchten'
     },
   },
   subscribeUrl: {
