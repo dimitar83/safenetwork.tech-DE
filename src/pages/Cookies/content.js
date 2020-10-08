@@ -1,8 +1,8 @@
 export default {
-  title: 'No Cookie Policy',
+  title: 'Keine Cookierichtlinie',
   desc: [
-    '[MaidSafe.net](https://maidsafe.net/) Limited understands that your privacy is important to you and that you care about how your personal data is used. We respect and value the privacy of everyone who visits this website so with that in mind, we don’t use cookies on this website.',
-    'No session cookie; no persistent cookie; no HttpOnly cookie; no secure cookie; no Third-party cookies. Seriously… NO COOKIES!'
+    'Eingeschränkte [MaidSafe.net](https://maidsafe.net/) ist sich bewusst, dass Ihre Privatsphäre für Sie wichtig ist und dass Sie sich darum kümmern, wie Ihre persönlichen Daten verwendet werden. Wir beachten und schätzen die Privatsphäre aller Besucher dieser Website. Aus diesem Grund verwenden wir auf dieser Website keine Cookies.',
+    'Kein Beratungscookie; kein dauerhafter Cookie; kein HttpOnly-Cookie; kein sicherer Cookie; keine Cookies von Drittanbietern. Im Ernst … KEINE COOKIES!'
   ],
   topics: []
 }
