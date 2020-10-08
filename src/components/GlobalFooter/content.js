@@ -54,7 +54,7 @@ export default {
     ]
   },
   'company': {
-    'name': 'Company',
+    'name': 'Feste',
     'links': [
       {
         'name': 'Über MaidSafe',
@@ -91,15 +91,15 @@ export default {
     'name': 'Legal',
     'links': [
       {
-        'name': 'Privacy Policy',
+        'name': 'Datenschutzbestimmungen',
         'url': '/privacy'
       },
       {
-        'name': 'Cookie Policy',
+        'name': 'Cookierichtlinie',
         'url': '/cookies'
       },
       {
-        'name': 'Credits',
+        'name': 'Anerkennung an',
         'url': 'https://maidsafe.net/credits'
       }
     ]
@@ -108,7 +108,7 @@ export default {
     'name': 'Newsletter'
   },
   'social': {
-    'name': 'Social',
+    'name': 'Sozial',
     'links': [
       {
         'style': 'twitter',
