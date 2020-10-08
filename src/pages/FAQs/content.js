@@ -134,96 +134,96 @@
         {
           question: 'Was ist PARSEC?',
           answer: [
-            '**P**rotocol for **A**synchronous, **R**eliable, **S**ecure & **E**fficient **C**onsensus.',
-            'PARSEC is the consensus algorithm which allows decentralised networks to reach agreement on a series of events, actions or activities in a secure and reliable manner that is not only highly asynchronous but also Byzantine Fault Tolerant. In other words, the Network is mathematically guaranteed to reach consensus (provided no more than one-third of nodes are malicious or unresponsive for whatever reason).',
-            '[Read the whitepaper](https://docs.maidsafe.net/Whitepapers/pdf/PARSEC.pdf)',
+            'Protokoll für asynchronen, zuverlässigen, sicheren und effizienten Konsens.',
+            'PARSEC ist der Konsensalgorithmus, mit dem dezentralisierte Netzwerke auf sichere und zuverlässige Weise eine Einigung über eine Reihe von Ereignissen, Aktionen oder Aktivitäten erzielen können, die nicht nur hoch asynchron, sondern auch byzantinisch fehlertolerant ist. Mit anderen Worten PARSEC wird mathematisch garantiert, sodass das Netzwerk einen Konsens erzielt (vorausgesetzt, nicht mehr als ein Drittel der Knoten sind böswillig oder aus irgendeinem Grund reagieren nicht).',
+            '[Lesen Sie das Weißbuch](https://docs.maidsafe.net/Whitepapers/pdf/PARSEC.pdf)',
             '_PDF_',
-            '[Watch a video giving a technical overview](https://youtu.be/JKagaPUrDsY)',
+            '[Sehen Sie sich ein Video mit einem technischen Überblick](https://youtu.be/JKagaPUrDsY)',
             '_YouTube_',
-            '[Let Dug from MaidSafe talk you through it](https://youtu.be/3YRaTCET5ZU)',
+            '[Lassen Sie sich von Dug von MaidSafe durchreden](https://youtu.be/3YRaTCET5ZU)',
             '_YouTube_'
           ]
         },
         {
-          question: 'What is data deduplication?',
+          question: 'Was ist Datendeduplizierung?',
           answer: [
-            'The SAFE Network uses [data deduplication](https://en.wikipedia.org/wiki/Data_deduplication) to ensure that space is used efficiently when storing multiple copies of data which have been uniquely encrypted. The network is able to distinguish identical pieces of data by comparing the hashes of each chunk. Vaults also use hashes to identify themselves (known as Guaranteed Vault Identification).'
+            'Das SAFE Network verwendet die [Datendeduplizierung](https://en.wikipedia.org/wiki/Data_deduplication) um sicherzustellen, dass der Speicherplatz effizient genutzt wird, wenn mehrere Datenkopien gespeichert werden, die eindeutig verschlüsselt wurden. Das Netzwerk kann ähnliche Daten durch Vergleichen der Hashes jedes Blocks unterscheiden. Tresore verwenden auch Hashes, um sich zu ermitteln (bekannt als gewährte Tresorbestimmung).'
           ]
         },
         {
-          question: 'What is Self-Authentication?',
+          question: 'Was ist Selbstauthentifizierung?',
           answer: [
-            'Self-Authentication means that you can log in and secure your data with no middle man. You never have to give your password to anyone or ask a third party’s permission to access your data. Your information, and access to it, belongs to you and no one else. Your Secret and Password are used to locate your data on the Network and then used to decrypt that data locally. That means that no one needs to hold a record of your files or your login details—and there’s no need to ask anyone for permission to access it. This is known as Self-Authentication and enables you to find, unlock and decrypt your own data. '
+            'Selbstauthentifizierung bedeutet, dass Sie sich ohne Zwischenhändler anmelden und Ihre Daten sichern können. Sie müssen niemals Ihr Kennwort an Dritte weitergeben oder die Erlaubnis eines Dritten einholen, auf Ihre Daten zuzugreifen. Ihre Informationen und der Zugriff darauf gehören Ihnen und niemand anderem. Ihr Geheimnis und Ihr Kennwort werden verwendet, um Ihre Daten im Netzwerk zu fixieren und diese Daten dann lokal zu entschlüsseln. Das bedeutet, dass niemand Ihre Dateien oder Anmeldedaten aufzeichnen muss - und Sie müssen niemandem um Erlaubnis bitten, darauf zugreifen zu dürfen. Dies wird als Selbstauthentifizierung bezeichnet und es ermöglicht Ihnen, Ihre eigenen Daten zu finden, zu entsperren und zu entschlüsseln.'
           ]
         },
         {
-          question: 'What is Close Group Consensus?',
+          question: 'Was ist ein enger Gruppenkonsens?',
           answer: [
-            'A key requirement for distributed computer networks is consensus. In other words how can nodes reach agreement when there is no centralised authority and when you are likely to have nodes that are either malicious or fail. Many projects will rely on a blockchain in order to achieve this consensus but, as we know, [this approach doesn’t work](https://www.youtube.com/watch?v=i-RLdU8Y0Qc) with the SAFE Network where the number of transactions is greater and the expectation of users will be to retrieve data instantaneously. So how do you reach consensus on an increasingly large group of decentralised nodes without compromising security?',
-            'The answer lies within close groups. Using Close Group Consensus, small groups are able to make statements on behalf of the entire Network which means that the Network does not need to communicate directly with every single node each time.',
-            'On the SAFE Network, the concept of ‘closeness’ comes from something called XOR networking. This is a way of randomising the physical location of data on a distributed network and ensuring that each location is unique. However, in this sense, it is also used because every Vault has a XOR location also. A Close Group is then comprised of the closest Vault ID’s to the user’s Vault ID in terms of XOR distance. This is distance measured in the mathematical sense, as opposed to the geographical sense.',
-            'The Group of Vaults managing a Section will always try to reach consensus (agreement) amongst themselves on any state and action. They also ‘group sign’ messages that travel over the wider network so that other Vaults in other Groups can cryptographically verify each message and action (such as groups forming, splitting and merging). These group signatures are stored in Data Chains which are secured and held by all Vaults in the Group.',
-            'Close Group Consensus is not used for every operation on the Network as this would cause unnecessary load. It is only used for putting data on the Network—cryptographic signatures are used for other activities—for example, simple amendments to data or sending a Safecoin to another user.'
+            'Eine wichtige Voraussetzung für verteilte Computernetzwerke ist die Einigkeit. Mit anderen Worten, wie können Knoten eine Einigung erzielen, wenn es keine zentralisierte Autorität gibt und wenn Sie wahrscheinlich Knoten haben, die entweder böswillig oder gescheitert sind. Vielen Projekte werden auf eine Blockkette angewiesen sein, um dieser Einigkeit zu erzielen. Wie wir schon wissen, dieser Ansatz [funktioniert jedoch nicht](https://www.youtube.com/watch?v=i-RLdU8Y0Qc) mit dem SAFE Network, bei dem die Anzahl der Transaktionen größer ist und die Benutzer erwarten, dass Daten sofort abgerufen werden. Wie können Sie eine Einigkeit über eine immer größere Gruppe von dezentralisierten Knoten erzielen, ohne die Sicherheit zu beeinträchtigen?',
+            'Die Antwort liegt an engen Gruppen. Mit “Close Group Consensus” können kleine Gruppen im Namen des gesamten Netzwerk Aussagen treffen, was bedeutet, dass das Netzwerk nicht jedes Mal direkt in Verbindung mit jedem einzelnen Knoten stehen muss.',
+            'Im SAFE Network stammt das Konzept der “Nähe” von einem sogenannten XOR-Netzwerkbetrieb. Auf diese Weise können Sie den physischen Standort von Daten in einem verteilten Netzwerk zufällig festlegen und sicherstellen, dass jeder Standort besonders ist. In diesem Sinne wird es jedoch auch verwendet, da jeder Tresor auch einen XOR-Speicherort hat. Eine “Close Group” zum Schließen besteht dann aus den Tresor-IDs, die der Tresor-ID des Benutzers in Bezug auf die XOR-Entfernung am nächsten liegen. Dies ist der Abstand, der im mathematischen Sinne gemessen wird, im Gegensatz zum geografischen Sinne.',
+            'Die Tresorgruppe, die einen Abschnitt verwaltet, wird immer versuchen, untereinander eine Einigkeit (eine Einigung) über einen Staat und eine Tätigkeit zu erzielen. Sie “signieren” auch Nachrichten, die über das breitere Netzwerk übertragen werden, damit andere Tresore in anderen Gruppen jede Nachricht und Tätigkeit kryptografisch überprüfen können (z.B. das Bilden, Aufteilen und Zusammenführen von Gruppen). Diese Gruppensignaturen werden in Datenketten gespeichert, die von allen Tresoren in der Gruppe gesichert und gehaltet werden.',
+            'Close Group Consensus wird nicht für jeden Einsatz im Netzwerk verwendet, da dies zu unnötiger Belastung führen würde. Es wird nur zum Datenspeichern im Netzwerk verwendet- kryptografische Unterschriften werden für andere Aktivitäten verwendet-, z.Bl. einfache Datenänderungen oder das Abschicken einer Safecoin an einen anderen Benutzer.'
           ]
         },
         {
-          question: 'What are Data Chains?',
+          question: 'Was sind Datenketten?',
           answer: [
-            'In the same way that the Bitcoin blockchain does not hold bitcoins, a data chain doesn’t hold data. However, it does provide evidence that a piece of data exists and where it should exist. Crucially, with the SAFE Network the data identified is real (documents, videos etc). That means that we can use that data identifier to prove the actual data itself is valid Network data (i.e. it has been accepted previously by the Network).',
-            'So what is the architecture of a Data Chain? Imagine a block of data. This contains the data identifiers (for example, hash, name, type of data etc). Connected to this block is a link. This link a collection of signatures by all of the members of a group who agree that the details within this block of data are correct. With every change in the membership of the group, a new link is created and added to the Data Chain.',
-            'There is much more to the detail of this architecture but to summarise, the Data Chain will split as the Network grows whilst the collective record will remain, accessible to all nodes. The links prove the membership and agreement that has taken place in the past. Using Data Chains, nodes have a provable history on the Network which means that they can prove group membership and be ranked easily for security purposes. Some nodes will not need to hold the actual data but instead hold only identifiers as the existence of that data is guaranteed. And crucially, Data Chains will ultimately enable the secure republishing of data should the Network ever lose power, as well as providing validation that data has been stored on the Network.',
-            'We believe that Data Chains appear to be a natural progression for decentralised systems. They allow data of any type, size or format to be looked after and maintained in a secure and decentralised manner-in the sense of not only protecting physical data but also the validity of such data on the Network.'
+            'Ebenso wie die Bitcoin-Blockkette keine Bitcoins erhält, enthält eine Datenkette keine Daten. Es liefert jedoch Hinweise darauf, dass ein Datenelement vorhanden ist und wo es vorhanden sein sollte. Entscheidend ist, dass beim SAFE Network die identifizierten Daten echt sind (Dokumente, Videos usw.). Das bedeutet, dass wir diese Datenkennung verwenden können, um zu beweisen, dass die tatsächlichen Daten selbst gültige Netzwerkdaten sind (d.H. sie wurden zuvor vom Netzwerk akzeptiert).',
+            'Was ist die Architektur einer Datenkette? Stellen Sie sich einen Datenblock vor. Diese enthält die Datenkennungen (z.B. Hash, Name, Datentyp usw.). Mit diesem Block ist ein Link verbunden. Dieser Link enthält eine Sammlung von Signaturen aller Mitglieder einer Gruppe, die zustimmen, dass die Einzelheiten in diesem Datenblock korrekt sind. Mit jeder Änderung der Mitgliedschaft in der Gruppe wird ein neuer Link erstellt und der Datenkette hinzugefügt.',
+            'Die Einzelheiten dieser Architektur enthalten noch viel mehr, aber zusammenfassend wird die Datenkette aufgeteilt, wenn das Netzwerk wächst, während der Sammeldatensatz für alle Knoten zugänglich bleibt. Die Links beweisen die Mitgliedschaft und Zustimmung, die in der Vergangenheit stattgefunden hat. Mithilfe von Datenketten haben Knoten eine nachweisbare Historie im Netzwerk, was bedeutet, dass sie die Gruppenmitgliedschaft nachweisen und aus Sicherheitsgründen einfach eingestuft werden können. Einige Knoten müssen nicht die tatsächlichen Daten enthalten, sondern nur Bezeichner, da die Existenz dieser Daten garantiert ist. Es ist entscheidend, dass Datenketten letztendlich die sichere Datenneuveröffentlichung ermöglichen, falls das Netzwerk jemals an Strom verliert, sowie die Bewertung, dass Daten im Netzwerk gespeichert werden.',
+            'Wir glauben, dass Datenketten ein natürlicher Fortschritt für dezentralisierte Systeme zu sein scheinen. Sie ermöglichen die sichere und dezentralisierte Pflege und Datenpflege jeglicher Art, Größe oder Formats - im Sinne nicht nur des Schutzes physischer Daten, sondern auch der Gültigkeit solcher Daten im Netzwerk.'
           ]
         }
       ]
     },
     {
-      title: 'About Safecoin',
+      title: 'Über Safecoin',
       items: [
         {
-          question: 'What is Safecoin?',
+          question: 'Was ist Safecoin?',
           answer: [
-            'Safecoin is a digital token that is generated automatically by the SAFE Network and stays on the SAFE Network. The Network will autonomously confirm account balances to Wallets and allow transactions to take place. Safecoin is transferred using the digital signature of the coin’s last owner. This operation is \'network atomic\'; in other words, the Network ensures that all copies update to reflect the transaction. This is a different approach to the blockchain mechanism employed in other projects, such as Bitcoin.'
+            'Safecoin ist ein digitales Token, das vom SAFE Network automatisch generiert wird und im SAFE Network verbleibt. Das Netzwerk bestätigt autonom den Kontostand für Geldbeutel und ermöglicht Transaktionen. Safecoin wird mit der digitalen Unterschrift des letzten Münzebesitzers übertragen. Dieser Einsatz “Netzwerk automar”; mit anderen Worten, das Netzwerk stellt sicher, dass alle Kopien aktualisiert werden, um die Transaktion widerzuspiegeln. Dies ist ein anderer Ansatz als der Blockkettemechanismus, der in anderen Projekten wie Bitcoin verwendet wird.'
           ]
         },
         {
-          question: 'What\'s the use of Safecoin in the SAFE Network?',
+          question: 'Was nützt Safecoin im SAFE Network?',
           answer: [
-            'Safecoin is the currency of the SAFE Network. It is an incentive mechanism that rewards Users and developers, as well as providing access to network services.',
-            'Without any human intervention, the SAFE Network pays out Safecoin automatically to Farmers (users who join the Network by contributing their computing resources) and to Builders (application developers, who get paid automatically depending on how much their applications are used).',
-            'In addition, Core Developers who improve the core SAFE Network codebase can also earn Safecoin by providing bug fixes and new features.',
-            'Safecoin only lives on the SAFE Network. It is stored in a User\'s wallet and can be used to buy network services, such as increased storage space and access to network applications. There is no set distribution time for the 4.3 billion Safecoin produced during the life of the SAFE Network.'
+            'Safecoin ist die Währung des SAFE Networks. Es ist ein Anreizmechanismus, der Benutzer und Entwickler belohnt und den Zugriff auf Netzwerkdienste ermöglicht.',
+            'Das SAFE Network zahlt Safecoin automatisch an Landwirte ohne menschliches Eingreifen (Benutzer, die dem Netzwerk beitreten, indem sie ihre Computerressourcen einbringen) und an Erbauer (Anwendungsentwickler, die automatisch bezahlt werden, je nachdem, wie viel ihre Anwendungen verwendet werden).',
+            'Darüber hinaus können Kernetnwickler, die die Codebasis des SAFE Kernnetzwerks verbessern, Safecoin verdienen, indem sie Fehlerbehebungen und neue Aufgaben bereitstellen.',
+            'Safecoin lebt nur im SAFE Network. Es wird in der Brieftasche eines Benutzers gespeichert und kann zum Kauf von Netzwerkdiensten verwendet werden z.B. zum Erhöhen des Speicherplatzes und zum Zugriff auf Netzwerkanwendungen. Es gibt keine festgelegte Verteilungszeit für die 4,3 Milliarden Safecoin, die während der Lebensdauer des SAFE Networks hergestellt wurden.'
           ]
         },
         {
-          question: 'How do I buy Safecoin?',
+          question: 'Wie kaufe ich Safecoin?',
           answer: [
-            'Safecoin won’t be issued until the Network goes live so they cannot be purchased at the moment. Currently you can buy MaidSafeCoin which will be swapped on a 1-to-1 basis for Safecoin when released.',
-            'MaidSafeCoin is listed on the Bitcoin blockchain and can be purchased on a number of exchanges including:',
+            'Safecoin wird erst ausgegeben, wenn das Netzwerk online geht, sodass sie derzeit nicht gekauft werden können. Derzeit können Sie MaidSafeCoin kaufen, das bei Veröffentlichung 1:1 gegen Safecoin ausgetauscht wird.',
+            'MaidSafeCoin ist in der Bitcoin Blockkette aufgeführt und kann an einer Reihe von Börsen erworben werden, darunter:',
             '- [Bittrex](https://global.bittrex.com/Market/Index?MarketName=BTC-MAID)\n- [HitBTC](https://hitbtc.com/MAID-to-BTC)'
           ]
         },
         {
-          question: 'Why not just use Bitcoin?',
+          question: 'Warum nicht einfach Bitcoin verwenden?',
           answer: [
-            'Bitcoin is completely unrelated to the SAFE Network and cannot be generated or distributed by the SAFE Network. Safecoin is generated in response to network use (stored data being retrieved or apps are created) and is the digital currency of the SAFE Network.'
+            'Bitcoin ist völlig unabhängig vom SAFE Network und kann vom SAFE Network nicht generiert oder verteilt werden. Safecoin wird als Gegenwirkung auf die Netzwerknutzung generiert (gespeicherte Daten werden abgerufen oder Apps werden erstellt) und ist die digitale Währung des SAFE Networks.'
           ]
         },
         {
-          question: 'How is Safecoin valued?',
+          question: 'Wie wird Safecoin bewertet?',
           answer: [
-            'The value of Safecoin will be set by the market. In other words, the demand to acquire Safecoin will be driven by the demand to buy things on the Network using Safecoin (e.g. other currency, products, services etc). Whilst simply viewing data on the Network will be free, Safecoin will be needed to buy distributed data storage and for communications. Farmers should earn more than enough Safecoin to enable them to use the Network. Those who earn more than they need will likely sell excess Safecoin to the exchanges.',
-            'It is worth noting that the generation and distribution of Safecoin will be entirely network-led, meaning that a great demand for Safecoin will result in a large volume being created, while low demand will lead to minimal coins being generated.'
+            'Der Safecoinwert wird vom Markt festgelegt. Mit anderen Wörter, die Nachfrage nach dem Erwerb von Safecoin wird von der Nachfrage nach dem Kauf von Dingen im Netzwerk mit Safecoin (z.B. andere Währungen, Produkten, Dienstleistungen usw.) bestimmt. Während das einfache Anzeigen von Daten im Netzwerk kostenlos ist, wird Safecoin benötigt, um verteilte Datenspeicher zu kaufen und für die Kommunikation. Landwirte sollten mehr als genug Safecoin verdienen, um das Netzwerk nutzen zu können. Diejenigen, die mehr verdienen als sie brauchen, werden wahrscheinlich überschüssiges Safecoin an die Börsen verkaufen.',
+            'Es ist erwähnenswert, dass die Erzeugung und Verteilung von Safecoin vollständig netzwerkgesteuert sein wird, was bedeutet, dass eine große Nachfrage nach Safecoin dazu führen wird, dass ein großes Volumen erzeugt wird, während eine geringe Nachfrage dazu führt, dass nur minimale Münzen erzeugt werden.'
           ]
         },
         {
-          question: 'How is Safecoin distributed?',
+          question: 'Wie wird Safecoin verteilt?',
           answer: [
-            'The total number of Safecoin that can exist on the SAFE Network is 2^32, or just under 4.3 billion. 5% of that total has been allocated to compensate early investors who backed the Network development in the early days. A further 10% was sold to crowdsale participants in early 2014. They received MaidSafeCoin (a blockchain-based token that will be exchanged for Safecoin on a one-for-one ratio when the Network launches). At that stage, the holders can use Safecoin however they wish.',
-            'Beyond that, Safecoin will come into and go out of circulation in a continuous flow as follows:',
-            'All new Safecoin are generated as a part of the farming process and distributed to Farmers, App Builders and the Core Developer pool according to their individual algorithms, as described below.',
-            'Safecoin is distributed as the product of a successful “farming attempt.” The sequence leading up to a successful farming attempt starts when a Farmer’s Vault accurately delivers up stored data when the data is requested. When this is successfully done, the Vault seeks to qualify for a farming attempt. The chance of gaining a farming attempt is regulated by the network Farming Rate (FR) which prevails at that moment, and adjusts the ease or difficulty of gaining a farming attempt, depending on prevailing network conditions (availability or scarcity of storage resources).',
-            '\n*   Farmers qualify for farming attempts at 100% of the Farming Rate (FR) (as modified by Vault performance ranking).\n*   App Builders qualify for farming attempts at 10% of the FR\n*   The pool from which Core Developers are rewarded for their contributions qualifies for farming attempts at 5% of the FR.'
+            'Die Gesamtzahl der Safecoin, die im SAFE Network vorhanden sein können, beantragt 2^32 oder knapp 4,3 Milliarden. 5% dieser Summer wurden für die Entschädigung früher Investoren bereitgestellt, die die Netzwerkentwicklung in den frühen Tagen unterstützt haben. Weitere 10% wurden Anfang 2014 an Crowdscale Teilnehmer verkauft. Sie erhielten MaidSafeCoin (ein Blockkette-basiertes Token, das beim Start des Netzwerks im Verhältnis eins zu eins gegen Safecoin ausgetauscht wird). In dieser Bühne können die Inhaber Safecoin verwenden, wie sie möchten.',
+            'Darüber hinaus wird Safecoin in einem kontinuierlichen Fluss wie folgt in den Kreislauf gelangen und aus dem Verkehr gezogen:',
+            'Alle neuen Safecoin werden als Teil des Landwirtschaftsprozesses generiert und gemäß ihren individuellen Algorithmen an Landwirte, App Erbauer, und den Kern-Entwicklers Pool verteilt, wie unten beschrieben.',
+            'Safecoin wird als Produkt eines erfolgreichen “landwirtschaftlichen Versuchs” vertrieben. Der Ablauf, der zu einem erfolgreichen Landwirtschaftsversuch führt, beginnt, wenn ein Bauerngewölbe gespeicherte Daten genau liefert, wenn die Daten angefordert werden. Wenn dies erfolgreich durchgeführt wurde, versucht der Tresor, sich für einen landwirtschaftlichen Versuch zu qualifizieren. Die Gelegenheit, einen landwirtschaftlichen Versuch zu unternehmen, wird durch die zu diesem Zeitpunkt geltende Netzwerklandwirtschaftsrate (FR) geregelt und passt die Leichtigkeit oder Schwierigkeit eines landwirtschaftlichen Versuchs abhängig von den vorherrschenden Netzwerkbedingungen (Verfügbarkeit oder Knappheit an Speicherressourcen) an.',
+            '\n*   Landwirte qualifizieren sich für Landwirtschaftsversuche zu 100% der Landwirtschaftsrate (FR) (geändert durch das Tresorleistungshitliste.\n*   App Erbauer qualifizieren sich für landwirtschaftliche Versuche bei 10% der FR\n*   Der Fond, aus dem Kernentwickler für ihre Beiträge belohnt werden, qualifiziert sich für landwirtschaftliche Versuche mit 5% der FR.'
           ]
         },
         {
