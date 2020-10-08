@@ -227,91 +227,91 @@
           ]
         },
         {
-          question: 'What is MaidSafeCoin?',
+          question: 'Was ist MaidSafeCoin?',
           answer: [
-            'MaidSafeCoin is a proxy token that was released during MaidSafe\'s crowd sale and will be swapped for Safecoin on a 1:1 basis when Safecoin is released.',
-            'MaidSafeCoin is listed on the Bitcoin blockchain and can be purchased on a number of exchanges including [Bittrex](https://global.bittrex.com/Market/Index?MarketName=BTC-MAID) and [HitBTC](https://hitbtc.com/MAID-to-BTC).',
+            'MaidSafeCoin ist ein Proxy-Token, das während des Crowd Sale von MaidSafe veröffentlicht wurde und bei der Veröffentlichung von SafeCoin 1:1 gegen Safecoin ausgetauscht wird.',
+            'MaidSafeCoin ist in der Bitcoin Blockkette aufgeführt und kann an einer Börsenreihe erworben werden, darunter [HitBTC](https://hitbtc.com/MAID-to-BTC) und [Bittrex](https://global.bittrex.com/Market/Index?MarketName=BTC-MAID).',
           ]
         },
         {
-          question: 'How do I buy MaidSafeCoin?',
+          question: 'Wo kann ich MaidSafeCoin speichern?',
           answer: [
-            'In essence all we have to do is buy bitcoin and exchange it for MaidSafeCoin. There are a few simple steps required to do this.',
-            '\n1.  Create an [OmniWallet](http://omniwallet.org/).\n2.  Purchase bitcoin using your preferred vendor.\n3.  Create a trade account on an exchange which lists MaidSafeCoin (e.g. on [Bittrex](https://global.bittrex.com/Market/Index?MarketName=BTC-MAID)).\n4.  Send bitcoin to the trading account.\n5.  Trade bitcoin for MaidSafeCoin.\n6.  Withdraw / Transfer to OmniWallet.\n7.  MaidSafeCoin is now in your OmniWallet!'
+            'Im Wessentlichen müssen wir nur Bitcoin kaufen und gegen MaidSafeCoin eintauschen. Dazu sind einige einfache Schritte erforderlich.',
+            '\n1.  Erstellen Sie eine [OmniWallet](http://omniwallet.org/).\n2.  Kaufen Sie Bitcoin bei Ihrem bevorzugten Anbieter.\n3.  Erstellen Sie ein Handelskonto an einer Börse, in der MaidSafeCoin aufgeführt ist (z.B. bei [Bittrex](https://global.bittrex.com/Market/Index?MarketName=BTC-MAID)).\n4.  Senden Sie Bitcoin auf das Handelskonto.\n5.  Tauschen Sie Bitcoin gegen MaidSafeCoin.\n6.  Zurückziehen / Übertragen auf Omniwallet.\n7.  MaidSafeCoin ist jetzt in Ihrer OmniWallet!'
           ]
         },
         {
           question: 'Where can I store MaidSafeCoin?',
           answer: [
-            'As MaidSafeCoin is built using the Omni protocol on the Bitcoin blockchain, it can be stored in any wallet. They may not be visible within all wallet software (due to lack of Omni support) but the MaidSafeCoin will be OK there as long as your machine and private key for that address are secure and you will be able to view them using [omniexplorer.info](https://omniexplorer.info).',
-            'To create a new Omniwallet or open an existing one visit [omniwallet.org](https://www.omniwallet.org/).'
+            'Da MaidSafeCoin mit dem Omni-Protokoll in der Bitcoin Blockkette erstellt wird, kann es in jeder Brieftasche gespeichert werden. Sie sind möglicherweise nicht in allen Brieftascheprogrammen sichtbar (aufgrund mangelnder Omni-Unterstützung), aber die MaidSafeCoin ist dort in Ordnung, solange Ihr Computer und Ihr privater Schlüssel für diese Adresse sicher sind und Sie sie mit [omniexplorer.info](https://omniexplorer.info) anzeigen können.',
+            'Um eine neue OmniWallet zu erstellen oder eine vorhandene zu öffnen, besuchen Sie [omniwallet.org](https://www.omniwallet.org/).'
           ]
         },
         {
-          question: 'How will MaidSafeCoin be converted to Safecoin?',
+          question: 'Wie wird MaidSafeCoin in Safecoin konvertiert?',
           answer: [
-            'Once the SAFE Network goes live, MaidSafeCoin can be exchanged for Safecoin at a ratio of 1:1. This will probably be achieved by sending MaidSafeCoin to an unspendable address, thereby burning them. In return, an equal number of Safecoin will then be issued to the sender\'s User account on the SAFE Network.'
+            'Sobald das SAFE Network online ist, kann MaidSafeCoin im Verhältnis 1:1 gegen SafeCoin ausgetauscht werden. Dies wird wahrscheinlich erreicht, indem MaidSafeCoin an eine nicht aussagefähige Adresse gesendet und dadurch gebrannt wird. Im Gegenzug wird eine gleiche Anzahl von Safecoin an das Benutzerkonto des Absenders im SAFE Network ausgegeben.'
           ]
         }
       ]
     },
     {
-      title: 'About Farming',
+      title: 'Über die Landwirtschaft',
       items: [
         {
-          question: 'What is Farming?',
+          question: 'Was ist Landwirtschaft?',
           answer: [
-            'Safecoin is given as an incentive to users for providing their resource to the network. This resource is their: storage space, CPU, bandwidth and online time that enable the encrypted chunks of network data to be stored and retrieved from their computer.',
-            'The process of providing resource and receiving Safecoin in return is called ‘Farming’.',
-            'Each piece of encrypted network data is stored in a Farmer\'s ‘Vault’, a data storage and management location on the Farmer\'s computer which they cannot read, or access. The SAFE Network is designed to self-manage these resources.'
+            'Safecoin wird als Anreiz für Benutzer gegeben, ihre Ressourcen für das Netzwerk bereitzustellen. Diese Ressourcen sind ihre: Speicherplatz, CPU, Bandbreite und Online-Zeit, die es ermöglichen, die verschlüsselten Teile von Netzwerkdaten zu speichern und von ihrem Computer abzurufen.',
+            'Der Bereitstellungsprozess von Ressourcen und des Erhalts von Safecoin als Gegenleistung wird als “Landwirtschaft” bezeichnet.',
+            'Jedes Stück verschlüsselter Netzwerkdaten wird in einem Erbauerstresor gespeichert, einem Speicherort für die Datenspeicherung und -Verwaltung auf dem Erbauers Computer, auf den sie nicht lesen oder zugreifen können. Das SAFE Network dient zur Selbstverwaltung dieser Ressourcen.'
           ]
         },
         {
-          question: 'How will farming work in practice?',
+          question: 'Wie wird die Landwirtschaft in der Praxis funktionieren?',
           answer: [
-            'When a user of the network requests some data, for example by browsing a website, a number of things happen: First, the client software makes a request for the required data chunks. This message (a GET request) is then propagated across the Network and when the chunk is found there is a competition between the Vaults in that Section to deliver it to the Network where it will be routed back to the requester. The first Vault to deliver will have a chance of being rewarded with Safecoin. This is described as a Farming Attempt.',
-            'Farming Attempt means: by delivering data chunks when requested, a Vault occasionally gains the opportunity to make a Farming Attempt. This consists of sending a validated request to a random Safecoin address. If an owned Safecoin already exists at that address, the Attempt fails. If there is no Safecoin there, one is created and awarded to the requesting Vault (i.e. a successful Farming Attempt has been made).',
-            'Farming is therefore when a Vault delivers data chunks that it is storing to the network and earns Safecoin in return.',
-            'The probability of gaining a Farming Attempt is dependent on the farming rate, which is a variable related to the quantity of available storage resources in the Network.'
+            'Wenn ein Netzwerkbenutzer einige Daten anfordert, z.B. beim Websitesurfen geschieht eine Reihe von Dingen: Zunächst fordert die Kundensoftware die erforderlichen Datenblöcke an. Diese Nachricht ( eine GET-Anforderung) wird dann über das Netzwerk weitergegeben. Wenn der Block gefunden wird, besteht ein Wettbewerb zwischen den Tresoren in diesem Abschnitt, um sie an das Netzwerk zu übermitteln, wo sie an den Anforderer zurückgeleitet wird. Der erste Tresor, der geliefert wird, hat die Möglichkeit mit Safecoin belohnt zu werden. Dies wird als Lanwirtschaftsversuch bezeichnet.',
+            'Lanwirtschaftsversuch bedeutet: durch die Bereitstellung von angefragten Datenblöcken erhält ein Tresor gelegentlich die Möglichkeit, einen Landwirtschaftversuch durchzuführen. Dies besteht darin, eine validierte Anfrage an eine zufällige Safecoinadresse zu senden. Wenn an dieser Adresse bereits eine eigene Safecoin vorhanden ist, schlägt der Versuch fehl. Wenn dort keine Safecoin vorhanden ist, wird eine erstellt und dem anfordernden Tresor zugewiesen (d.H. es wurde ein erfolgreicher Landwirtschaftsversuch unternommen).',
+            'Bei der Landwirtschaft liefert ein Tresor Datenblöcke, die er im Netzwerk speichert, und verdient dafür Safecoin.',
+            'Die Wahrscheinlichkeit, einen Landwirtschaftsversuch zu erhalten, hängt von der Bewirtschaftungsrate ab, die eine Variable ist, die sich auf die Menge der verfügbaren Speicherressourcen im Netzwerk bezieht.'
           ]
         },
         {
-          question: 'What is stopping a hosting provider from farming?',
+          question: 'Was hindert einen Datenhostinganbieter an der Landwirtschaft?',
           answer: [
-            'Nothing. Everyone is welcome to farm and thereby contribute to the network. To prevent centralisation, the use of one huge farming rig will be economically discouraged as compared to running multiple smaller nodes. The Safecoin earning algorithm is based on a Sigmoid curve, in that all Vaults earn, slowly at first and the rate increases as the Farmer stores up to the network average. The earning rate also takes into account the rank of the Vault, a process whereby the network scores the usefulness of each node from 0 (being the worst) to 1 (the best).',
-            'The Safecoin farming rate is ultimately the result of the network rate (a balance of the demand and supply on the network) multiplied by the Vault rank. The network rate will start to level at 20% above average, thus discouraging massive Vaults which would bring centralisation to the network’s farming process.'
+            'Nichts. Jeder ist willkommen in der Landwirtschaft und trägt so zum Netzwerk bei. Um eine Zentralisierung zu verhindern, wird die Verwendung eines riesigen landwirtschaftlichen Bohrgeräts im Vergleich zum Betrieb mehrerer kleinerer Knoten wirtschaftlich nicht empfohlen. Der Safecoin Verdienstalgorithmus basiert auf einer Sigmoid-Krümmung, bei der alle Tresore zunächst langsam verdienen und die Rate steigt, wenn der Landwirt bis zum Netzwerkdurchschnitt speichert. Die Verdienstquote berücksichtigt auch den Rang des Tresors, ein Prozess, bei dem das Netzwerk die Nützlichkeit jedes Knotens von 0 (am schlechtesten) bis 1 (am besten) bewertet.',
+            'Die Safecoin-Landwirtschaftsrate ist letztendlich das Ergebnis der Netzwerkrate (ein Gleichgewicht zwischen Angebot und Nachfrage im Netzwerk) multipliziert mit dem Tresorrang. Die Netzwerkrate wird voraussichtlich um 20% über dem Durchschnitt liegen, wodurch massive Tresore entmutigt werden, die eine Zentralisierung des landwirtschaftlichen Netzwerkprozesses bewirken würden.'
           ]
         }
       ]
     },
     {
-      title: 'For Developers',
+      title: 'Für Entwickler',
       items: [
         {
-          question: 'What’s in it for developers?',
+          question: 'Was haben Entwickler davon?',
           answer: [
-            '15% of all Safecoin earned will be allocated to the developer pool. This will ensure the developer community is highly motivated and rewarded for providing free-to-use applications as their revenue model. It is proposed that developers are able to use the SAFE Network to publish their applications. These application developers are called Builders and the network will reward use of these applications by paying the Builders in Safecoin based on the application use by users of the system. This is possible since the application developer can insert their own network immutable wallet address in their application. This creates a fully automatic revenue model for both open source projects, private individuals and application development companies. Developers who contribute code that enhances or fixes bugs in the SAFE Network that are accepted into the master branch of the codebase will also be able to earn Safecoin.',
-            'Reasons for developing on the SAFE Network:',
-            '\n*   Get your apps everywhere\n*   No API key—just download our code and start using it\n*   Extremely low customer acquisition costs and no infrastructure costs\n*   Apps that adapt in real-time to changes in demand\n*   Provide security, privacy and anonymity to all your users'
+            '15% aller verdienten Safecoin werden dem Entwicklereinsatz zugewiesen. Dadurch wird sichergestellt, dass die Entwicklergemeinde hoch motiviert und belohnt ist, kostenlos nutzbare Anwendungen als Umsatzmodell bereitzustellen. Es wird vorgeschlagen, dass Entwickler das SAFE Network verwenden können, um ihre Anwendungen zu veröffentlichen. Diese Anwendungsentwickler werden als Erbauer bezeichnet und das Netzwerk belohnt die Verwendung dieser Anwendungen, indem es die Erbauer in Safecoin basierend auf der von Systembenutzern verwendeten Anwendungen bezahlt. Dies ist möglich, da der Anwendungsentwickler seine eigene netzwerkunveränderliche Brieftascheadresse in seine Anwendung einfügen kann. Dies schafft ein vollautomatisches Einkommensmodell sowohl für Open Source Projekte als auch für Privatpersonen und Anwendungsentwicklungsunternehmen. Entwickler, die Code beisteuern, der Fehler im SAFE Network verbessert oder behebt, die in der Hauptfiliale der Codegrundlage aufgenommen wurden, können auch Safecoin verdienen.',
+            'Gründe für die Entwicklung im SAFE Network:',
+            '\n*   Holen Sie sich Ihre Apps überall\n*   Kein API Schlüssel - laden Sie einfach unseren Code herunter und verwenden Sie ihn\n*   Extrem niedrige Kundenerwerbkosten und keine Infrastrukturkosten\n*   Apps, die sich in Echtzeit an veränderte Anforderungen anpassen\n*   Bieten Sie allen Benutzern Sicherheit, Datenschutz und Anonymität'
           ]
         },
         {
-          question: 'As a developer how do I get involved?',
+          question: 'Wie kann ich mich als Entwickler engagieren?',
           answer: [
-            'On top of our informative and helpful [Dev Forum](https://forum.safedev.org/), the SAFE Network has a dedicated [developer hub](https://hub.safedev.org/) that is the hub for all development resources.',
-            '[Visit the DevHub](https://hub.safedev.org/)'
+            'Zusätzlich zu unserem aufschlussreichen und hilfreichen [Dev Forum](https://forum.safedev.org/), erfügt das SAFE Network über einen engagierten [Entwicklerhub](https://hub.safedev.org/), der der Hub für alle Entwicklungsressourcen ist.',
+            '[Besuchen Sie den DevHub](https://hub.safedev.org/)'
           ]
         },
         {
-          question: 'Why is the SAFE Network open source?',
+          question: 'Warum ist das SAFE Network Open Source?',
           answer: [
-            'Because the SAFE Network has the potential to become a vital part of the lives of every connected person on the planet, MaidSafe are 100% committed to ensuring that all software is released under an open source licence. This encourages innovation and helps prevent any single person, company or organisation gaining control over the technology.'
+            'Da das SAFE Network das Potenzial hat, ein wichtiger Bestandteil des Lebens jeder verbundenen Person auf dem Planet zu werden, setzt sich MaidSafe zu 100% dafür ein, dass die gesamte Software unter einer Open-Source-Lizenz veröffentlicht wird. Dies fördert Innovationen und verhindert, dass einzelne Personen, Unternehmen oder Organisationen die Kontrolle über die Technologie gewinnen.'
           ]
         },
         {
-          question: 'What open source licenses does the SAFE Network use?',
+          question: 'Welche Open-Source-Lizenzen verwendet das SAFE Network?',
           answer: [
-            'All SAFE Network and MaidSafe code is made available under [GPLv3](https://www.gnu.org/licenses/gpl.html), [BSD](http://www.linfo.org/bsdlicense.html) or [MIT](https://opensource.org/licenses/MIT) license.'
+            'Der gesamte SAFE Network- und MaidSafe-Code wird unter der [GPLv3](https://www.gnu.org/licenses/gpl.html), [BSD](http://www.linfo.org/bsdlicense.html) oder [MIT](https://opensource.org/licenses/MIT) Lizenz zur Verfügung gestellt.'
           ]
         }
       ]
